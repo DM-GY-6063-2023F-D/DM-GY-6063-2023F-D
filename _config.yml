@@ -17,3 +17,9 @@ defaults:
     values:
       layout: "page"
       permalink: :basename/
+  - scope:
+      path: "README.md"
+    values:
+      layout: "page"
+      permalink: /
+      title: DM-GY 6063 2023F D Syllabus
