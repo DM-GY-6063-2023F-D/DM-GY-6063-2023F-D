@@ -1,0 +1,19 @@
+title: Creative Coding (DM-GY 6063) Fall 2023 Section D
+
+baseurl: ""
+include: ["_pages"]
+
+# Build settings
+markdown: kramdown
+
+# Local dev settings
+port: 8114
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      permalink: :basename/
