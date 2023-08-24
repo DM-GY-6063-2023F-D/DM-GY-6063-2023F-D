@@ -4,7 +4,7 @@
 
 ### Fall 2023, Section D
 
-- Instructor: [Thiago Hersan](https://thiagohersan.com){:target="_blank"}
+- Instructor: [Thiago Hersan](https://thiagohersan.com)
 - email: [tgh8114@nyu.edu](mailto:tgh8114@nyu.edu)
 - Class meeting: Wednesdays 2:00pm - 4:50pm, _locationn tbd_
 - Office hours: _TBD_
@@ -18,7 +18,7 @@ This course is an introductory programming class, appropriate for students with 
 
 Students in this course will:
 
-- Learn the basics of programming and creative coding using Javascript and the [p5.js](https://p5js.org/){:target="_blank"} library.
+- Learn the basics of programming and creative coding using Javascript and the [p5.js](https://p5js.org/) library.
 - Apply their understanding of digital media to software.
 - Make connections between larger social experiences/issues and the process of software development.
 - Learn best practices for designing software within an event-driven, object-oriented, real time framework.
@@ -32,8 +32,8 @@ None.
 ### Textbook
 
 There are no required books for class, but some books that make excellent companions for the materials we'll be covering incliude:
-- [Generative Design 2nd ed by Benedikt Gross, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni](http://www.generative-gestaltung.de/2/){:target="_blank"}
-- [Getting Started with p5js by Lauren McCarthy, Casey Reas, and Ben Fry](https://www.oreilly.com/library/view/make-getting-started/9781457186769/){:target="_blank"}
+- [Generative Design 2nd ed by Benedikt Gross, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni](http://www.generative-gestaltung.de/2/)
+- [Getting Started with p5js by Lauren McCarthy, Casey Reas, and Ben Fry](https://www.oreilly.com/library/view/make-getting-started/9781457186769/)
 
 Additional reading materials will be distributed as PDFs throughout the semester.
 
@@ -41,30 +41,30 @@ Additional reading materials will be distributed as PDFs throughout the semester
 
 p5.js references
 
-- [p5.js](https://p5js.org/){:target="_blank"}
-- [p5.js Reference](https://p5js.org/reference/){:target="_blank"}
-- [p5.js Tutorials](https://p5js.org/learn/){:target="_blank"}
-- [Original (Java/Desktop) Processing](https://processing.org/){:target="_blank"}(Good examples)
-- [Daniel Shiffman's Learning Processing](http://learningprocessing.com/){:target="_blank"} - [p5.js Code](https://github.com/shiffman/LearningProcessing-p5.js){:target="_blank"} - [YouTube Channel](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA){:target="_blank"}
-- [IDM's p5.js Image Processing Tutorial](https://idmnyu.github.io/p5.js-image/){:target="_blank"}
+- [p5.js](https://p5js.org/)
+- [p5.js Reference](https://p5js.org/reference/)
+- [p5.js Tutorials](https://p5js.org/learn/)
+- [Original (Java/Desktop) Processing](https://processing.org/) (Good examples)
+- [Daniel Shiffman's Learning Processing](http://learningprocessing.com/) - [p5.js Code](https://github.com/shiffman/LearningProcessing-p5.js) - [YouTube Channel](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+- [IDM's p5.js Image Processing Tutorial](https://idmnyu.github.io/p5.js-image/)
 
 Github
 
-- [GitHub's GitHub Tutorial](https://docs.github.com/en/get-started/quickstart/hello-world){:target="_blank"}
-- [Coding Train's GitHub for Poets](https://thecodingtrain.com/tracks/git-and-github-for-poets){:target="_blank"}
-- [Interactive Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html){:target="_blank"}
+- [GitHub's GitHub Tutorial](https://docs.github.com/en/get-started/quickstart/hello-world)
+- [Coding Train's GitHub for Poets](https://thecodingtrain.com/tracks/git-and-github-for-poets)
+- [Git Interactive Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
 
 Other
 
-- [A Brief Introduction to Debugging](https://vimeo.com/channels/debugging){:target="_blank"}
+- [A Brief Introduction to Debugging](https://vimeo.com/channels/debugging)
 
-For even more supplementary resources on programming, creative programming and programming languages, visit [Katherine Bennet's resources page](https://github.com/IDMNYU/CreativeCoding_A_SP23_Bennett/blob/main/Resources.md){:target="_blank"}.
+For even more supplementary resources on programming, creative programming and programming languages, visit [Katherine Bennet's resources page](https://github.com/IDMNYU/CreativeCoding_A_SP23_Bennett/blob/main/Resources.md).
 
 ### An Outline of the Course
 
 ### Assignments, Projects, etc
 
-### Grading and Attendance
+### Grading
 
 
 ### Attendance
@@ -80,17 +80,17 @@ Be on time to class. If you're more than fifteen minutes late, or if you leave e
 ### Tech Etiquette
 
 You're welcome to use laptops/devices in class to take notes, work on exercises and look up references, but be mindful of other students and close laptops/devices during presentations and discussions. For context: 
-[Why I Just Asked My Students To Put Their Laptops Away](https://medium.com/@cshirky/why-i-just-asked-my-students-to-put-their-laptops-away-7f5f7c50f368){:target="_blank"}.
+[Why I Just Asked My Students To Put Their Laptops Away](https://medium.com/@cshirky/why-i-just-asked-my-students-to-put-their-laptops-away-7f5f7c50f368).
 
 ### Social Etiquette
 
-These [Social Rules from The Recurse Center](https://www.recurse.com/social-rules){:target="_blank"} should be kept in mind during class discussions, presentations, critiques:
-- [No well-actually’s](https://www.recurse.com/social-rules#no-well-actuallys){:target="_blank"}
-- [No feigned surprise](https://www.recurse.com/social-rules#no-feigning-surprise){:target="_blank"}
-- [No backseat driving](https://www.recurse.com/social-rules#no-backseat-driving){:target="_blank"}
-- [No subtle -isms](https://www.recurse.com/social-rules#no-subtle-isms){:target="_blank"}
+These [Social Rules from The Recurse Center](https://www.recurse.com/social-rules) should be kept in mind during class discussions, presentations, critiques:
+- [No well-actually’s](https://www.recurse.com/social-rules#no-well-actuallys)
+- [No feigned surprise](https://www.recurse.com/social-rules#no-feigning-surprise)
+- [No backseat driving](https://www.recurse.com/social-rules#no-backseat-driving)
+- [No subtle -isms](https://www.recurse.com/social-rules#no-subtle-isms)
 
-Also, these observations from a [discussion about bots](https://www.crummy.com/2013/11/27/0){:target="_blank"} is a helpful reminder:
+Also, these observations from a [discussion about bots](https://www.crummy.com/2013/11/27/0) is a helpful reminder:
 
 *"There is a general rule for comedy and art: always punch up, never punch down. We let comedians and artists and miscellaneous jesters do outrageous things as long as they obey this rule. You can poke fun at yourself, you can make a joke at the expense of someone with higher social status than you, but if you mock someone with lower status, it's not cool."*
 
@@ -107,7 +107,7 @@ The NYU Tandon School values an inclusive and equitable environment for all our 
 
 Violations of academic integrity are considered to be acts of academic dishonesty and include (but are not limited to) cheating, plagiarizing, fabrication, denying other access to information or material and facilitating academic dishonesty, and are subject to the policies and procedures noted in the Student Handbook and within the Course Catalog, including the Student Code of Conduct and the Student Judicial System. Please note that lack of knowledge of citations procedures, for example, is an unacceptable explanation for plagiarism, as is having studied together to produce remarkable similar papers or creative works submitted separately by two students, or recycling work from a previous class.
 
-Please review [NYU's School of Engineering's academic dishonesty policy](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html){:target="_blank"} in its entirety. Procedures may include, but are not limited to: failing the assignment, failing the course, going in front of an academic judicial council and possible suspension from school. Violations will not be tolerated.
+Please review [NYU's School of Engineering's academic dishonesty policy](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html) in its entirety. Procedures may include, but are not limited to: failing the assignment, failing the course, going in front of an academic judicial council and possible suspension from school. Violations will not be tolerated.
 
 All work for this class must be your own and specific to this semester. Any work recycled from other classes or from another, non-original source will be rejected with serious implications for the student. Plagiarism, knowingly representing the words or ideas of another as one’s own work in any academic exercise, is absolutely unacceptable. Any student who commits plagiarism must re-do the assignment for a grade no higher than a D. In fact, a D is the highest possible course grade for any student who commits plagiarism.
 
@@ -131,7 +131,7 @@ Likewise, writing/response assignments will be short and personal, asking not on
 
 NYU-Tandon is committed to assuring equal educational opportunity and full participation for all students. The mission of the Office for Students with Disabilities is to provide individuals with learning differences (a.ka. disabilities) the same access to programs and activities as other students. We assist students to maximize their potential while helping them develop and maintain independence.
 
-Students who believe they are eligible for course accommodations under the ADA or Section 504 or have had accommodations please contact New York University’s Moses Center for Students with Disabilities at 212-998-4980 or [mosescsd@nyu.edu](mailto:mosescsd@nyu.edu). You must be registered with CSD to receive accommodations. Information about the Moses Center can be found at [https://www.nyu.edu/csd](https://www.nyu.edu/csd){:target="_blank"}. The Moses Center is located at 726 Broadway on the 2nd floor. Do not wait to get the documentation in to me.
+Students who believe they are eligible for course accommodations under the ADA or Section 504 or have had accommodations please contact New York University’s Moses Center for Students with Disabilities at 212-998-4980 or [mosescsd@nyu.edu](mailto:mosescsd@nyu.edu). You must be registered with CSD to receive accommodations. Information about the Moses Center can be found at [https://www.nyu.edu/csd](https://www.nyu.edu/csd). The Moses Center is located at 726 Broadway on the 2nd floor. Do not wait to get the documentation in to me.
 
 Faculty can provide course accommodations/modifications only after receipt of an approved accommodations letter from the Moses Center for Students with Disabilities. Accommodation letters can be provided to qualified students at any time during the semester, but grades earned before the faculty receives the letter cannot be changed.
 
@@ -139,7 +139,7 @@ Faculty can provide course accommodations/modifications only after receipt of an
 
 This syllabus has been inspired by previous versions of this course and includes words/ideas by:
 
-- [Katherine Bennett](https://github.com/IDMNYU/CreativeCoding_A_SP23_Bennett/){:target="_blank"}
-- [R. Luke DuBois](https://github.com/IDMNYU/DM-UY1133-B-CreativeCoding-FA22-DuBois/wiki/){:target="_blank"}
-- [Scott Fitzgerald](https://idmnyu.github.io/DM-GY-6063-Creative-Coding-A-Fall-2020/){:target="_blank"}
-- [Allison Parrish](https://github.com/IDMNYU/DM-GY-6063B-Creative-Coding){:target="_blank"}
+- [Katherine Bennett](https://github.com/IDMNYU/CreativeCoding_A_SP23_Bennett/)
+- [R. Luke DuBois](https://github.com/IDMNYU/DM-UY1133-B-CreativeCoding-FA22-DuBois/wiki/)
+- [Scott Fitzgerald](https://idmnyu.github.io/DM-GY-6063-Creative-Coding-A-Fall-2020/)
+- [Allison Parrish](https://github.com/IDMNYU/DM-GY-6063B-Creative-Coding)
