@@ -52,7 +52,7 @@ Github
 
 - [GitHub's GitHub Tutorial](https://docs.github.com/en/get-started/quickstart/hello-world)
 - [Coding Train's GitHub for Poets](https://thecodingtrain.com/tracks/git-and-github-for-poets)
-- [Git Interactive Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
+- [Git Interactive Cheatsheet](https://ndpsoftware.com/git-cheatsheet.html)
 
 Other
 
@@ -65,7 +65,6 @@ For even more supplementary resources on programming, creative programming and p
 ### Assignments, Projects, etc
 
 ### Grading
-
 
 ### Attendance
 
