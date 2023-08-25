@@ -6,15 +6,32 @@
 }
 
 html, body {
+  --text-color: #ddd;
+  --text-color-a: #ff66b3;
+  --text-color-a-h: #ff42a1;
+  --bgnd-color: #222;
   margin: 0;
+  background-color: var(--bgnd-color);
   font-family: Raleway;
-  line-height: 1.5;
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--text-color);
 }
 
 body {
   display: flex;
   flex-direction: row;
   width: 100%;
+}
+
+a {
+  color: var(--text-color-a);
+  &:visited {
+    color: var(--text-color-a);
+  }
+  &:hover {
+    color: var(--text-color-a-h);
+  }
 }
 
 .nav-container {

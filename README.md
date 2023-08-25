@@ -96,13 +96,13 @@ These [Social Rules from The Recurse Center](https://www.recurse.com/social-rule
 - [No backseat driving](https://www.recurse.com/social-rules#no-backseat-driving)
 - [No subtle -isms](https://www.recurse.com/social-rules#no-subtle-isms)
 
-Also, these observations from a [discussion about bots](https://www.crummy.com/2013/11/27/0) is a helpful reminder:
+Also, these observations from a [discussion about bots](https://www.crummy.com/2013/11/27/0) are a helpful reminder:
 
 *"There is a general rule for comedy and art: always punch up, never punch down. We let comedians and artists and miscellaneous jesters do outrageous things as long as they obey this rule. You can poke fun at yourself, you can make a joke at the expense of someone with higher social status than you, but if you mock someone with lower status, it's not cool."*
 
 *"If you make a joke, and people get really offended, it's almost certainly because you violated this rule. People don't get offended randomly. Explaining that 'it was just a joke' doesn't help; everyone knows what a joke is. The problem is that you used a joke as a means of being an asshole."*
 
-Be sensitive to what your classmates might find offensive, triggering or violent and be graceful and listen carefully when your work gets called out.
+Be sensitive to what your classmates might find offensive, triggering or violent and be graceful and listen carefully when your work gets called out for being offensive, triggering or violent.
 
 ## Inclusion
 
