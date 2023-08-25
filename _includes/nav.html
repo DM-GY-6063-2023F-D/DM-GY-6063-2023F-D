@@ -1,3 +1,8 @@
 <div class="nav-container">
-  <div class="">NAVIGATION</div>
+  <div class="menu">
+    <a href="{{ site.baseurl }}/">Syllabus</a>
+    {% for p in site.pages %}
+    <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+    {% endfor %}
+  </div>
 </div>
