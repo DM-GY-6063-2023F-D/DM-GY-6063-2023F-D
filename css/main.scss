@@ -33,3 +33,8 @@ body {
   max-width: 600px;
   padding: 12px;
 }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
