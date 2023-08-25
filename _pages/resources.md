@@ -1,13 +1,17 @@
 ---
 ---
-
 # Resources
+
+## DM-GY 6063 2023F D
+
+- [Course website](https://dm-gy-6063-2023f-d.github.io/)
+- [p5js template repo](https://github.com/DM-GY-6063-2023F-D/p5js-template)
 
 ## Textbooks
 
 There are no required books for class, but these books are excellent companions for the materials we'll be covering:
-- [Generative Design 2nd ed by Benedikt Gross, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni](http://www.generative-gestaltung.de/2/)
-- [Getting Started with p5js by Lauren McCarthy, Casey Reas, and Ben Fry](https://www.oreilly.com/library/view/make-getting-started/9781457186769/)
+- [Generative Design 2nd ed](http://www.generative-gestaltung.de/2/) by Benedikt Gross, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni.
+- [Getting Started with p5js](https://www.oreilly.com/library/view/make-getting-started/9781457186769/) by Lauren McCarthy, Casey Reas, Ben Fry.
 
 ## Additional Reading Materials
 

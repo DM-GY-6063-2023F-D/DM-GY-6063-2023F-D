@@ -73,6 +73,12 @@ These are not mandatory. If you have questions or need help with some aspect of 
 
 ## Grading
 
+TODO
+
+## Incomplete
+
+TODO
+
 ## Attendance
 
 You are expected to attend all class sessions. Absences due to non-emergency situations will only be cleared if you let me know a week or more in advance, and even then only for compelling personal or professional reasons (e.g., attending an important conference, going to a wedding). If you're unable to attend class due to contagious or incapacitating illness, please let me know by e-mail or slack before class begins.
