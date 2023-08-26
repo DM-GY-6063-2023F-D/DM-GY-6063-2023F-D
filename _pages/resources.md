@@ -24,13 +24,14 @@ Additional reading materials will be distributed as PDFs throughout the semester
 ### p5.js references
 
 - [p5.js](https://p5js.org/)
-- p5.js [Reference](https://p5js.org/reference/)
-- p5.js [Tutorials](https://p5js.org/learn/)
-- [Original Processing](https://processing.org/)
+  - p5.js [Reference](https://p5js.org/reference/)
+  - p5.js [Tutorials](https://p5js.org/learn/)
+  - p5.js [Examples](https://p5js.org/examples/)
+  - p5.js [Forum](https://discourse.processing.org/c/p5js/10)
 - Daniel Shiffman's [Learning Processing](http://learningprocessing.com/)
   - [p5.js Code](https://github.com/shiffman/LearningProcessing-p5.js)
   - [YouTube Channel](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
-- IDM's p5.js [Image Processing Tutorial](https://idmnyu.github.io/p5.js-image/)
+- IDM's [Image Processing Tutorial](https://idmnyu.github.io/p5.js-image/)
 
 ### Github
 
@@ -41,18 +42,24 @@ Additional reading materials will be distributed as PDFs throughout the semester
 ### Other
 
 - [A Brief Introduction to Debugging](https://vimeo.com/channels/debugging)
+- [A Field Guide To Debugging](https://p5js.org/learn/debugging.html)
 
 ---
 
 ## Media Resources
 
-- [Creative Applications](https://www.creativeapplications.net/)
-- [Neural.it](http://neural.it/)
-- [Eyeo Festival (Vimeo)](https://vimeo.com/eyeofestival)
+- [IDM Spring Show](http://idm.show)
+- [ITP Spring Show](https://itp.nyu.edu/shows/)
+- [CMU’s IDeATe Gallery](http://ideate.xsead.cmu.edu/gallery/projects)
+- [Parsons Design + Technolgy Gallery](https://www.newschool.edu/parsons/mfa-design-technology-student-work/)
+- [p5js Showcase](https://p5js.org/showcase/)
 - [OpenProcessing](https://www.openprocessing.org/)
 - [Cinder Gallery](https://libcinder.org/gallery)
 - [Processing (Vimeo)](https://vimeo.com/groups/processing)
 - [openFrameworks (Vimeo)](https://vimeo.com/of)
+- [Creative Applications](https://www.creativeapplications.net/)
+- [Neural.it](http://neural.it/)
+- [Eyeo Festival (Vimeo)](https://vimeo.com/eyeofestival)
 - [r/CreativeCoding](https://www.reddit.com/r/creativecoding/)
 
 ---
