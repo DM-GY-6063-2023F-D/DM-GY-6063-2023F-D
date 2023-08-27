@@ -1,24 +1,14 @@
 ---
 ---
-# Creative Coding | DM-GY 6063
+# NYU | Tandon School of Engineering | Integrated Design & Media
 
-## Fall 2023, Section D
+# DM-GY 6063 | Creative Coding | Fall 2023, Section D
 
 - Instructor: [Thiago Hersan](https://thiagohersan.com)
 - email: [tgh8114@nyu.edu](mailto:tgh8114@nyu.edu)
-- Class meeting: Wednesdays 2:00pm - 4:50pm, _location tbd_
-- Office hours: _TBD_
+- Office hours: Mondays & Wednesdays 10:00am - 12:00pm (Room TODO)
+- Class meeting: Wednesdays 2:00pm - 4:50pm (Room TODO)
 - Slack Channel: _TBD_
-
----
-
-## Course Description
-
-This course is an introductory programming class, appropriate for students with no prior programming experience. Traditionally, introductory programming teaches algorithmic problem-solving, where a sequence of instructions describe the steps necessary to achieve a desired result. In this course, students are asked to go beyond this sequential thinking and to think concurrently, modularly and critically about the creative potential of software. By its end, students are empowered to write and read code for event-driven, object-oriented, graphical user interfaces like websites, interactive installations, games aand others.
-
-## Prerequisites
-
-None.
 
 ## Important Dates (for this course)
 
@@ -26,10 +16,18 @@ None.
 - 2023/09/18: Last day to Add/Drop class
 - 2023/11/22: Break, no class
 - 2023/12/04: Last day to withdraw from class
-- 2023/12/15: Last day of class
-- 2023/12/16: IDM showcase
+- 2023/12/15: Last lecture class
+- 2023/12/20: Final presentations
 
 ---
+
+## Course Description
+
+This course is an introductory programming class, appropriate for students with no prior programming experience. Traditionally, introductory programming teaches algorithmic problem-solving, where a sequence of instructions describe the steps necessary to achieve a desired result. In this course, students are asked to go beyond this sequential thinking and to think concurrently, modularly and critically about the creative potential of software. By its end, students are empowered to write and read code for event-driven, object-oriented, graphical user interfaces like websites, interactive installations, games and others.
+
+## Prerequisites
+
+None.
 
 ## Course Objectives
 
@@ -42,59 +40,90 @@ Students in this course will:
 - Experiment with different techniques for data processing and user input/output.
 - Propose and develop a complete software experience as a final project.
 
+---
+
 ## An Outline of the Course
 
+### Class Participation
+### Readings
+### Assignments
+### Projects
+### Quizzes
 TODO
-
-## Assignments, Projects, etc
-
-TODO
-
-## Textbooks
-
-There are no required books for class, but some books that make excellent companions for the materials we'll be covering include:
-- [Generative Design 2nd ed by Benedikt Gross, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni](http://www.generative-gestaltung.de/2/)
-- [Getting Started with p5js by Lauren McCarthy, Casey Reas, and Ben Fry](https://www.oreilly.com/library/view/make-getting-started/9781457186769/)
-
-Additional reading materials will be distributed as PDFs throughout the semester.
-
-## Other Materials
-
-- A text editor suitable for writing code, like [VSCode](https://code.visualstudio.com/) or [Brackets](https://brackets.io/).
-- A notebook (digital or physical) for sketching ideas that can be included in write ups.
-
-## Office Hours
-
-I will be available for 2 hours a week to answer questions, help with assignments, chat about creative code, etc. These will be in the Adjunct Office (Room 3xx) on !!! and !!! from !!! to !!!.
-
-These are not mandatory. If you have questions or need help with some aspect of the material, but are unable to attend these, send me a message and we'll find a time to meet.
-
----
 
 ## Grading
 
 TODO
 
-## Incomplete
+## Course Schedule
 
 TODO
 
-## Attendance
+---
+
+## Expectations for Work Outside the Classroom
+
+Students should expect to spend roughly 5 hours each week on supplemental work in this course. This may include reading assignments, homework assignments, writing assignments, research, studying, etc.
+
+## Office Hours
+
+I will be available for 2 hours a week to answer questions, help with assignments, chat about creative code, etc. These will be in the Adjunct Faculty Office (Room TODO) on Mondays and Wednesdays from 10:00am to 12:00pm.
+
+These are not mandatory. If you have questions or need help with some aspect of the material, but are unable to attend these, send me an email and we'll find a time to meet.
+
+## Required Materials
+
+- A text editor suitable for writing code, like [VSCode](https://code.visualstudio.com/).
+- A notebook (digital or physical) for sketching ideas that can be included in write-ups.
+
+## Textbooks
+
+There are no required books for class. Additional reading materials will be distributed throughout the semester.
+
+## Optional Textbooks
+
+These books are excellent companions for the materials we'll be covering:
+- [Generative Design 2nd ed](http://www.generative-gestaltung.de/2/) by Benedikt Gross, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=5515144)
+- [Getting Started with p5js](https://www.oreilly.com/library/view/make-getting-started/9781457186769/) by Lauren McCarthy, Casey Reas, Ben Fry. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728)
+
+## Resources
+
+- [Class Website](https://dm-gy-6063-2023f-d.github.io/)
+  - [Class Resources](https://dm-gy-6063-2023f-d.github.io/resources/)
+- [Books, articles, etc](https://library.nyu.edu)
+- [NYU Writing Center](https://nyu.mywconline.com)
+- [NYU IT Service](https://nyu.edu/it/servicedesk)
+
+---
+
+## Course Policies
+
+### Attendance
 
 You are expected to attend all class sessions. Absences due to non-emergency situations will only be cleared if you let me know a week or more in advance, and even then only for compelling personal or professional reasons (e.g., attending an important conference, going to a wedding). If you're unable to attend class due to contagious or incapacitating illness, please let me know by e-mail or slack before class begins.
 
 Each unexcused absence will deduct 5% from your final grade. If you have three or more unexcused absences, you risk failing the course.
 
-## Lateness
+### Lateness
 
 Be on time to class. If you're more than fifteen minutes late, or if you leave early without letting me know ahead of time, it will count as an unexcused absence.
 
-## Tech Etiquette
+### Late Assignments
+
+Late assignments will be penalized 10% of the total grade per day they are late. For example, the maximum grade possible for an assignment that is worth 100 points, would be 90 points if turned in the day after the due date, 80 points if turned in two days after the due date, etc...
+
+### "Incomplete" Grade
+
+Under certain dire and unforeseen circumstances, like a critical emergency, a student may request an Incomplete/I grade. Faculty does not have the ability to give a grade of Incomplete without prior approval from the [Office of Student Advocacy](https://engineering.nyu.edu/life-tandon/student-life/student-advocacy).
+
+It is therefore the student's responsibility to contact the student advocate and describe their circumstance requesting an incomplete. If this is granted, the advocate will reach out to the faculty member, who will work with the student to develop a detailed plan for completion which includes a specific end date.
+
+### Tech Etiquette
 
 You're welcome to use laptops/devices in class to take notes, work on exercises and look up references, but be mindful of other students and close laptops/devices during presentations and discussions. For context: 
 [Why I Just Asked My Students To Put Their Laptops Away](https://medium.com/@cshirky/why-i-just-asked-my-students-to-put-their-laptops-away-7f5f7c50f368).
 
-## Social Etiquette
+### Social Etiquette
 
 These [Social Rules from The Recurse Center](https://www.recurse.com/social-rules) should be kept in mind during class discussions, presentations, critiques:
 - [No well-actually’s](https://www.recurse.com/social-rules#no-well-actuallys)
@@ -110,11 +139,7 @@ Also, these observations from a [discussion about bots](https://www.crummy.com/2
 
 Be sensitive to what your classmates might find offensive, triggering or violent and be graceful and listen carefully when your work gets called out for being offensive, triggering or violent.
 
-## Inclusion
-
-The NYU Tandon School values an inclusive and equitable environment for all our students. I hope to foster a sense of community in this class and consider it a place where individuals of all backgrounds, beliefs, ethnicities, national origins, gender identities, sexual orientations, religious, political affiliations and abilities will be treated with respect. It is my intent that all students’ learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength and benefit. If this standard is not being upheld, please feel free to speak with me.
-
-## Academic Integrity
+### Academic Integrity
 
 Violations of academic integrity are considered to be acts of academic dishonesty and include (but are not limited to) cheating, plagiarizing, fabrication, denying other access to information or material and facilitating academic dishonesty, and are subject to the policies and procedures noted in the Student Handbook and within the Course Catalog, including the Student Code of Conduct and the Student Judicial System. Please note that lack of knowledge of citations procedures, for example, is an unacceptable explanation for plagiarism, as is having studied together to produce remarkable similar papers or creative works submitted separately by two students, or recycling work from a previous class.
 
@@ -122,11 +147,11 @@ Please review [NYU's School of Engineering's academic dishonesty policy](https:/
 
 All work for this class must be our own and specific to this semester. Any work recycled from other classes or from another, non-original source will be rejected with serious implications for the student. Plagiarism, knowingly representing the words or ideas of another as one’s own work in any academic exercise, is absolutely unacceptable. Any student who commits plagiarism must re-do the assignment for a grade no higher than a D. In fact, a D is the highest possible course grade for any student who commits plagiarism.
 
-## A Special Note on Open Source and "Found Code"
+### A Special Note on Open Source and "Found Code"
 
-There's an ammount of sharing and re-using that will happen in this course due to the open source nature of the libraries, tools and learning materials we will be using. Plus a lot of assignments will be turned in using github, a platform for sharing code and other content.
+There's an amount of sharing and re-using that will happen in this course due to the open source nature of the libraries, tools and learning materials we will be using. Plus a lot of assignments will be turned in using github, a platform for sharing code and other content.
 
-Nonetheless, we have to be careful and conscious about the difference between using available tools that help with our learning experience and submiting other people's work as our own. It's not hard to find code online that will do things similar to, or exactly alike, the things you will developing for this class. It is NOT ok to use those as part of an assignment or project for this class.
+Nonetheless, we have to be careful and conscious about the difference between using available tools that help with our learning experience and submitting other people's work as our own. It's not hard to find code online that will do things similar to, or exactly alike, the things you will developing for this class. It is NOT ok to use those as part of an assignment or project for this class.
 
 On the other hand, it's also not hard to find code/libraries/packages/examples that solve specific technical tasks that are part of a larger project or assignment. For example: a library that converts gifs into movies or code for working with different text encodings. These are specific tasks that we aren't going to solve on our own, so using an open source solution is acceptable and expected.
 
@@ -136,7 +161,7 @@ TL;DR: Copying assignment code from other sources, using any code from other sou
 
 If there are questions about a specific situation, please ask.
 
-## A Special Note on LLMs and Large Diffusion Models
+### A Special Note on LLMs and Large Diffusion Models
 
 This is a class about creative uses of technology, and LLMs and interfaces like ChatGPT, Midjourney, etc definitely have their place in discussions about technology, society and creativity. Being in the environment we are in, it has become impossible to ignore these tools.
 
@@ -152,13 +177,17 @@ Likewise, writing/response assignments will be short and personal, asking not on
 
 As always, if there are any questions about a specific situation, just ask.
 
-## Educational Accessibility Statement
+### Academic Accommodations
 
-NYU-Tandon is committed to assuring equal educational opportunity and full participation for all students. The mission of the Office for Students with Disabilities is to provide individuals with learning differences (a.ka. disabilities) the same access to programs and activities as other students. We assist students to maximize their potential while helping them develop and maintain independence.
+If you are a student with a disability who is requesting accommodations, please contact New York University’s Moses Center for Students with Disabilities at 212-998-4980 or [mosescsd@nyu.edu](mailto:mosescsd@nyu.edu). You must be registered with CSD to receive accommodations. Information about the Moses Center can be found at [https://www.nyu.edu/csd](https://www.nyu.edu/csd). The Moses Center is located at 726 Broadway on the 2nd floor.
 
-Students who believe they are eligible for course accommodations under the ADA or Section 504 or have had accommodations please contact New York University’s Moses Center for Students with Disabilities at 212-998-4980 or [mosescsd@nyu.edu](mailto:mosescsd@nyu.edu). You must be registered with CSD to receive accommodations. Information about the Moses Center can be found at [https://www.nyu.edu/csd](https://www.nyu.edu/csd). The Moses Center is located at 726 Broadway on the 2nd floor. Do not wait to get the documentation in to me.
+If you are experiencing an illness or any other situation that might affect your academic performance in a class, please email the Office of Advocacy, Compliance and Student Affairs: [eng.studentadvocate@nyu.edu](mailto:eng.studentadvocate@nyu.edu).
 
-Faculty can provide course accommodations/modifications only after receipt of an approved accommodations letter from the Moses Center for Students with Disabilities. Accommodation letters can be provided to qualified students at any time during the semester, but grades earned before the faculty receives the letter cannot be changed.
+### Statement On Inclusion
+
+The NYU Tandon School values an inclusive and equitable environment for all our students. I hope to foster a sense of community in this class and consider it a place where individuals of all backgrounds, beliefs, ethnicities, national origins, gender identities, sexual orientations, religious and political affiliations, and abilities will be treated with respect.  It is my intent that all students’ learning needs be addressed, and that the diversity that students bring to this class be viewed as a resource, strength and benefit.  If this standard is not being upheld, please feel free to speak with me.
+
+---
 
 ## Credits
 
