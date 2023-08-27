@@ -2,12 +2,13 @@
 ---
 # NYU | Tandon School of Engineering | Integrated Design & Media
 
-# DM-GY 6063 | Creative Coding | Fall 2023, Section D
+# DM-GY 6063 | Creative Coding
+# Fall 2023, Section D
 
 - Instructor: [Thiago Hersan](https://thiagohersan.com)
 - email: [tgh8114@nyu.edu](mailto:tgh8114@nyu.edu)
-- Office hours: Mondays & Wednesdays 10:00am - 12:00pm (Room TODO)
-- Class meeting: Wednesdays 2:00pm - 4:50pm (Room TODO)
+- Office hours: Mondays & Wednesdays 10:00am - 12:00pm (Room TBD)
+- Class meeting: Wednesdays 2:00pm - 4:50pm (Room TBD)
 - Slack Channel: _TBD_
 
 ## Important Dates (for this course)
@@ -67,7 +68,7 @@ Students should expect to spend roughly 5 hours each week on supplemental work i
 
 ## Office Hours
 
-I will be available for 2 hours a week to answer questions, help with assignments, chat about creative code, etc. These will be in the Adjunct Faculty Office (Room TODO) on Mondays and Wednesdays from 10:00am to 12:00pm.
+I will be available for 2 hours a week to answer questions, help with assignments, chat about creative code, etc. These will be in the Adjunct Faculty Office (Room TBD) on Mondays and Wednesdays from 10:00am to 12:00pm.
 
 These are not mandatory. If you have questions or need help with some aspect of the material, but are unable to attend these, send me an email and we'll find a time to meet.
 
@@ -177,13 +178,15 @@ Likewise, writing/response assignments will be short and personal, asking not on
 
 As always, if there are any questions about a specific situation, just ask.
 
-### Academic Accommodations
+---
+
+## Academic Accommodations
 
 If you are a student with a disability who is requesting accommodations, please contact New York University’s Moses Center for Students with Disabilities at 212-998-4980 or [mosescsd@nyu.edu](mailto:mosescsd@nyu.edu). You must be registered with CSD to receive accommodations. Information about the Moses Center can be found at [https://www.nyu.edu/csd](https://www.nyu.edu/csd). The Moses Center is located at 726 Broadway on the 2nd floor.
 
 If you are experiencing an illness or any other situation that might affect your academic performance in a class, please email the Office of Advocacy, Compliance and Student Affairs: [eng.studentadvocate@nyu.edu](mailto:eng.studentadvocate@nyu.edu).
 
-### Statement On Inclusion
+## Statement On Inclusion
 
 The NYU Tandon School values an inclusive and equitable environment for all our students. I hope to foster a sense of community in this class and consider it a place where individuals of all backgrounds, beliefs, ethnicities, national origins, gender identities, sexual orientations, religious and political affiliations, and abilities will be treated with respect.  It is my intent that all students’ learning needs be addressed, and that the diversity that students bring to this class be viewed as a resource, strength and benefit.  If this standard is not being upheld, please feel free to speak with me.
 
