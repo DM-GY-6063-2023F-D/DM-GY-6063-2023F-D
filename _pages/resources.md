@@ -12,6 +12,8 @@
 There are no required books for class, but these books are excellent companions for the materials we'll be covering:
 - [Generative Design 2nd ed](http://www.generative-gestaltung.de/2/) by Benedikt Gross, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=5515144)
 - [Getting Started with p5js](https://www.oreilly.com/library/view/make-getting-started/9781457186769/) by Lauren McCarthy, Casey Reas, Ben Fry. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728)
+- [Form+Code](http://formandcode.com/code-examples/) by Casey Reas, Chandler McWilliams. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=3387346)
+- [Getting Started with Arduino](https://www.oreilly.com/library/view/getting-started-with/9781449363321/) by Massimo Banzi, Michael Shiloh. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=1887986)
 
 ## Additional Reading Materials
 
@@ -32,12 +34,21 @@ Additional reading materials will be distributed as PDFs throughout the semester
   - [p5.js Code](https://github.com/shiffman/LearningProcessing-p5.js)
   - [YouTube Channel](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 - IDM's [Image Processing Tutorial](https://idmnyu.github.io/p5.js-image/)
+- [Visualizing Music](https://therewasaguy.github.io/p5-music-viz/)
 
 ### Github
 
 - GitHub's [GitHub Tutorial](https://docs.github.com/en/get-started/quickstart/hello-world)
 - Coding Train's [GitHub for Poets](https://thecodingtrain.com/tracks/git-and-github-for-poets)
 - [Git Interactive Cheatsheet](https://ndpsoftware.com/git-cheatsheet.html)
+
+### Arduino
+- [Arduino](https://www.arduino.cc/)
+  - Arduino [Language Reference](https://www.arduino.cc/reference/en/)
+  - Arduino [Board Reference](https://docs.arduino.cc/)
+  - Arduinon [Tutorials](https://docs.arduino.cc/tutorials/)
+- Sparkfun [What is Electricity](https://learn.sparkfun.com/tutorials/what-is-electricity/all)
+- [Setting Up The Arduino IDE](https://diyodemag.com/education/fundamentals_setting_up_the_arduino_ide)
 
 ### Other
 
