@@ -7,7 +7,7 @@
 
 - Instructor: [Thiago Hersan](https://thiagohersan.com)
 - email: [tgh8114@nyu.edu](mailto:tgh8114@nyu.edu)
-- Office hours: Mondays & Wednesdays 10:00am - 12:00pm (Room TBD)
+- Office hours: Mondays & Wednesdays 10:00am - 12:00pm (Room 344)
 - Class meeting: Wednesdays 2:00pm - 4:50pm (Room TBD)
 - Slack Channel: _TBD_
 
@@ -68,13 +68,15 @@ Students should expect to spend roughly 5 hours each week on supplemental work i
 
 ## Office Hours
 
-I will be available for 2 hours a week to answer questions, help with assignments, chat about creative code, etc. These will be in the Adjunct Faculty Office (Room TBD) on Mondays and Wednesdays from 10:00am to 12:00pm.
+I will be available for 2 hours a week to answer questions, help with assignments, chat about creative code, etc. These will be in the Adjunct Faculty Office (Room 344) on Mondays and Wednesdays from 10:00am to 12:00pm.
 
 These are not mandatory. If you have questions or need help with some aspect of the material, but are unable to attend these, send me an email and we'll find a time to meet.
 
 ## Required Materials
 
 - A text editor suitable for writing code, like [VSCode](https://code.visualstudio.com/).
+- [Arduino IDE](https://www.arduino.cc/en/software)
+- Electronics Kit (Details TBD)
 - A notebook (digital or physical) for sketching ideas that can be included in write-ups.
 
 ## Textbooks
@@ -86,6 +88,8 @@ There are no required books for class. Additional reading materials will be dist
 These books are excellent companions for the materials we'll be covering:
 - [Generative Design 2nd ed](http://www.generative-gestaltung.de/2/) by Benedikt Gross, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=5515144)
 - [Getting Started with p5js](https://www.oreilly.com/library/view/make-getting-started/9781457186769/) by Lauren McCarthy, Casey Reas, Ben Fry. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728)
+- [Form+Code](http://formandcode.com/code-examples/) by Casey Reas, Chandler McWilliams. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=3387346)
+- [Getting Started with Arduino 3rd ed](https://www.oreilly.com/library/view/getting-started-with/9781449363321/) by Massimo Banzi, Michael Shiloh. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=1887986)
 
 ## Resources
 
