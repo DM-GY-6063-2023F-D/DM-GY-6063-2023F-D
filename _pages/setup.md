@@ -12,11 +12,13 @@ Sign-up for a free [github](https://github.com) account. Pick a username, add yo
 
 I recommend creating an organization for keeping this course's materials separate from other repositories or materials you might want to add to your account ([video]()).
 
-Download and install [GitHub Desktop](https://desktop.github.com/). This is the easiest way to install and setup git, specially on Windows computers ([video]()).
+Download and install [GitHub Desktop](https://desktop.github.com/). This is the easiest way to install and setup git, specially on Windows computers ([video]()). (Feel free to skip this if you already have git installed and you are comfortable using the command line interface).
 
-Feel free to skip this if you already have git installed and you are comfortable using the command line interface.
+## Arduino IDE
 
-## IDE (code editor)
+We'll be using the official Arduino IDE. It can be sownloaded [here](https://www.arduino.cc/en/software).
+
+## p5js IDE
 
 We'll be using [VSCode](https://code.visualstudio.com/) from Microsoft with the following extensions:
 

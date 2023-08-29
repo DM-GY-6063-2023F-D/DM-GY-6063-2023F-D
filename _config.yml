@@ -20,6 +20,10 @@ defaults:
     values:
       layout: "page"
   - scope:
+      path: "_pages/week"
+    values:
+      layout: "week"
+  - scope:
       path: "README.md"
     values:
       layout: "page"

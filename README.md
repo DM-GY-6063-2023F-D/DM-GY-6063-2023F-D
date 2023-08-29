@@ -9,6 +9,8 @@
 - email: [tgh8114@nyu.edu](mailto:tgh8114@nyu.edu)
 - Office hours: Mondays & Wednesdays 10:00am - 12:00pm (Room 344)
 - Class meeting: Wednesdays 2:00pm - 4:50pm (Room TBD)
+- Website: [https://6063D.github.io](https://6063D.github.io)
+- [Brightspace](https://brightspace.nyu.edu/d2l/home/312200)
 - Slack Channel: [#hersan-fall23-6063](https://app.slack.com/client/TCLDAQUSV/C05Q08V4EN8) on [https://idm-cc.slack.com](https://idm-cc.slack.com)
 
 ## Important Dates (for this course)
@@ -58,6 +60,8 @@ You will have weekly programming homework assignments to further practice and de
 
 In addition to the code, these assignments will require a short writeup that includes: sketches of the initial idea, experiments that didn't work, experiments that worked, but were left out for other reasons, any notes on aspects of the project you would like to keep working on if given more time, technical and conceptual sources, etc.
 
+Assignment descriptions and instructions for submissions will be available in the [Brightspace platform](https://brightspace.nyu.edu/d2l/home/312200).
+
 ### Readings
 
 Each week you will also read and respond to a short text about programming, technology, and/or social issues invulving programming and technology.
@@ -106,9 +110,117 @@ Letter grades for the entire course will be assigned as follows:
 | D | 1.00 | 60% - 64.99% |
 | F | 0.00 | 0% - 59.99% |
 
-## Course Schedule
+## Course Schedule (subject to change)
 
-TODO
+### Week 01 (2023/09/06)
+- Review Syllabus
+- Introduction
+- What is Programming
+- Setting up dev environment
+- Assignment: setting up dev environment and empty p5js project
+- Reading: Program or Be Programmed (Intro) by Douglas Rushkoff
+
+### Week 02 (2023/09/13)
+- Review Assignment
+- Discuss Reading
+- Math Review
+- What is Git
+- p5js: Functions and variables, pixels and canvas, mouse and events
+- Assignment: Drawing shapes with p5js
+- Reading: Software Studies: A Lexicon (Intro) by Matthew Fuller
+
+### Week 03 (2023/09/20)
+- Review Assignment
+- Discuss Reading
+- p5js: Loops and conditionals, functions and transforms, variation and randomness
+- Assignment: Drawing many shapes using loops and randomness
+- Reading: Art of Interactive Design (Chp 1) by Chris Crawford, [The Media Art Pose](http://www.flong.com/archive/texts/essays/essay_pose/index.html) by Golan Levin
+
+### Week 04 (2023/09/27)
+- Review Assignment
+- Discuss Reading
+- Some notes on debugging
+- p5js: Time and movement, flow control, objects
+- Assignment: Interactive and time-based shapes
+- Reading: The Stack (Intro) by Benjamin H. Bratton, [Worlds In Figures](https://worldsinfigures.com/tutorial) by Evan Roth
+
+### Week 05 (2023/10/04)
+- Review Assignment
+- Discuss Reading
+- Pseudocode
+- p5js: Arrays and dictionaries, data, CSV and JSON
+- Assignment: Data visualization
+- Reading: W. E. B. Du Bois's Data Portraits (Intro and Plates) by Britt Rusert and Whitney Battle-Baptiste
+- Midterm project: Description
+
+### Week 06 (2023/10/11)
+- Review Assignment
+- Discuss Reading
+- Project Proposal Presentations
+- p5js: More objects, text and strings, images and videos
+- Assignment: Visual poetry
+- Reading: [Ways of seeing](https://www.youtube.com/watch?v=0pDE4VX_9Kk) (Part 1) by John Berger
+- Midterm project: Pseudocode
+
+### Week 07 (2023/10/18)
+- Review Assignment
+- Discuss Reading
+- p5js: Camera and microphone, image and audio processing
+- Assignment: Midterm project
+
+### Week 08 (2023/10/25)
+- Midterm Project Presentations
+- Discuss Reading
+- p5js: Libraries: DOM, audio and video
+- Assignment: Audio/video distortion using external library
+- Reading: Nonhuman Photography (Intro) by Joanna Zylinska
+
+### Week 9 (2023/11/01)
+- Review Assignment
+- Discuss Reading
+- p5js: ML and image and audio processing
+- Assignment: TODO
+- Reading: The Atlas of AI (Intro) by Kate Crawford, [New Extractivism](https://extractivism.online/) by Vladan Joler
+
+### Week 10 (2023/11/08)
+- Review Assignment
+- Discuss Reading
+- Working with electricity
+- Arduino: Setup, wires, inputs and outputs, analog and digital
+- Assignment: Turning movement into lights
+- Reading: Race After Technology (Intro) by Ruha Benjamin
+
+### Week 11 (2023/11/15)
+- Review Assignment
+- Discuss Reading
+- Analog vs Digital
+- Arduino: More analog I/O, serial communication
+- Assignment: Physical interface: controlling p5js with arduino
+- Reading: Code and Clay, Data and Dirt (Intro) by Shannon Mattern
+- Final Project: Description
+
+### Week 12 (2023/11/29)
+- Review Assignment
+- Discuss Reading
+- Arduino: WiFi and BLE
+- Assignment: TODO
+- Reading: The Marvelous Clouds (Intro) by John Durham Peters
+
+### Week 13 (2023/12/06)
+- Review Assignment
+- Discuss Reading
+- Final Project: Workshop
+- Assignment: TODO
+- Reading: The Question Concerning Technology in China (Intro) by Yuk Hui
+
+### Week 14 (2023/12/13)
+- Review Assignment
+- Discuss Reading
+- Final Project Progress Presentation
+- Assignment: Final Project
+
+### Week 13 (2023/12/20)
+- Final Project Presentations
 
 ---
 
