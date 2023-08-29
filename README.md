@@ -9,7 +9,7 @@
 - email: [tgh8114@nyu.edu](mailto:tgh8114@nyu.edu)
 - Office hours: Mondays & Wednesdays 10:00am - 12:00pm (Room 344)
 - Class meeting: Wednesdays 2:00pm - 4:50pm (Room TBD)
-- Slack Channel: _TBD_
+- Slack Channel: [#hersan-fall23-6063](https://app.slack.com/client/TCLDAQUSV/C05Q08V4EN8) on [https://idm-cc.slack.com](https://idm-cc.slack.com)
 
 ## Important Dates (for this course)
 
@@ -34,7 +34,8 @@ None.
 
 Students in this course will:
 
-- Learn the basics of programming and creative coding using Javascript and the [p5.js](https://p5js.org/) library.
+- Learn the basics of programming and creative coding using Javascript with the [p5.js](https://p5js.org/) library and C++ with the [Arduino](https://www.arduino.cc/) platform.
+- Write code and develop interactive projects within the context of visual art and design.
 - Apply their understanding of digital media to software.
 - Make connections between larger social experiences/issues and the process of software development.
 - Learn best practices for designing software within an event-driven, object-oriented, real time framework.
@@ -45,16 +46,65 @@ Students in this course will:
 
 ## An Outline of the Course
 
-### Class Participation
-### Readings
+We will meet in person for class once a week. During this time we will cover new topics on different aspects of creative programming through presentations, examples and short coding exercises.
+
+We will also devote class time to review homework assignments and discuss assigned readings.
+
+Some of the other class activities are discussed in detail below.
+
 ### Assignments
+
+You will have weekly programming homework assignments to further practice and develop the concepts covered in class. These will be simple exercises at first, but will get more substancial as the semester progresses. They won't necessarily get more difficult, but will gradually become less prescriptive and allow for greater creative flexibility and experimentation.
+
+In addition to the code, these assignments will require a short writeup that includes: sketches of the initial idea, experiments that didn't work, experiments that worked, but were left out for other reasons, any notes on aspects of the project you would like to keep working on if given more time, technical and conceptual sources, etc.
+
+### Readings
+
+Each week you will also read and respond to a short text about programming, technology, and/or social issues invulving programming and technology.
+
+The responses will be short, 200-word texts written to express your opinion and feelings about the text and the subject.
+
+### Class Participation
+
+Each week we will review the homework assignment and the readings during class. You are expected to be actively engaged in these discussions, whether it's presenting your work or receiving feedback from other students.
+
 ### Projects
+
+There will be two larger multi-week projects throughout the semester, the first around week 5 and the other around week 11.
+
+The shape, form and content of these projects are largely up to you to define, but the projects should demonstrate significant mastery over the technical concepts discussed in class.
+
+You will be responsible for keeping a blog that documents progress of the project, and for presenting the final version of your project in class.
+
 ### Quizzes
-TODO
+
+We will have sporadic online take-home quizzes. These will cover technical concepts and will be used not only to test your knowledge, but mostly to give me information about how you’re progressing in the class.
 
 ## Grading
 
-TODO
+The grade for this course will be determined according to the following:
+
+| Activity | % of Final Grade |
+| --- | --- |
+| Weekly Programming Assignments | 20% |
+| Weekly Reading Responses | 15% |
+| Class Participation | 10% |
+| Quizzes | 5% |
+| Midterm Project | 20% |
+| Final Project | 30% |
+
+Letter grades for the entire course will be assigned as follows:
+
+| Letter Grade | Points | Overall Percent |
+| --- | --- | --- |
+| A | 4.00 | 90% - 100% |
+| B+ | 3.33 | 85% - 89.99% |
+| B | 3.00 | 80% - 84.99% |
+| C+ | 2.33 | 75% - 79.99% |
+| C | 2.00 | 70% - 74.99% |
+| D+ | 1.33 | 65% - 69.99% |
+| D | 1.00 | 60% - 64.99% |
+| F | 0.00 | 0% - 59.99% |
 
 ## Course Schedule
 
