@@ -60,7 +60,7 @@ You will have weekly programming homework assignments to further practice and de
 
 In addition to the code, these assignments will require a short writeup that includes: sketches of the initial idea, experiments that didn't work, experiments that worked, but were left out for other reasons, any notes on aspects of the project you would like to keep working on if given more time, technical and conceptual sources, etc.
 
-Assignment descriptions and instructions for submissions will be available in the [Brightspace platform](https://brightspace.nyu.edu/d2l/home/312200).
+Assignment submissions will be made on the [Brightspace platform](https://brightspace.nyu.edu/d2l/home/312200).
 
 ### Readings
 
@@ -151,7 +151,7 @@ Letter grades for the entire course will be assigned as follows:
 - p5js: Arrays and dictionaries, data, CSV and JSON
 - Assignment: Data visualization
 - Reading: W. E. B. Du Bois's Data Portraits (Intro and Plates) by Britt Rusert and Whitney Battle-Baptiste
-- Midterm project: Description
+- Midterm project: Proposal
 
 ### Week 06 (2023/10/11)
 - Review Assignment
@@ -179,23 +179,24 @@ Letter grades for the entire course will be assigned as follows:
 - Review Assignment
 - Discuss Reading
 - p5js: ML and image and audio processing
-- Assignment: TODO
+- Assignment: Using the camera as an input device
 - Reading: The Atlas of AI (Intro) by Kate Crawford, [New Extractivism](https://extractivism.online/) by Vladan Joler
 
 ### Week 10 (2023/11/08)
 - Review Assignment
 - Discuss Reading
 - Working with electricity
+- Analog vs Digital
 - Arduino: Setup, wires, inputs and outputs, analog and digital
-- Assignment: Turning movement into lights
+- Assignment: Turning actions into lights
 - Reading: Race After Technology (Intro) by Ruha Benjamin
 
 ### Week 11 (2023/11/15)
 - Review Assignment
 - Discuss Reading
-- Analog vs Digital
+- Finite State Machines
 - Arduino: More analog I/O, serial communication
-- Assignment: Physical interface: controlling p5js with arduino
+- Assignment: Password machine
 - Reading: Code and Clay, Data and Dirt (Intro) by Shannon Mattern
 - Final Project: Description
 
@@ -203,14 +204,13 @@ Letter grades for the entire course will be assigned as follows:
 - Review Assignment
 - Discuss Reading
 - Arduino: WiFi and BLE
-- Assignment: TODO
+- Assignment: Physical interfaces: controlling p5js with arduino
 - Reading: The Marvelous Clouds (Intro) by John Durham Peters
 
 ### Week 13 (2023/12/06)
 - Review Assignment
 - Discuss Reading
 - Final Project: Workshop
-- Assignment: TODO
 - Reading: The Question Concerning Technology in China (Intro) by Yuk Hui
 
 ### Week 14 (2023/12/13)
@@ -238,7 +238,7 @@ These are not mandatory. If you have questions or need help with some aspect of 
 
 - A text editor suitable for writing code, like [VSCode](https://code.visualstudio.com/).
 - [Arduino IDE](https://www.arduino.cc/en/software)
-- Electronics Kit (Details TBD)
+- Electronics Kit (details TBD)
 - A notebook (digital or physical) for sketching ideas that can be included in write-ups.
 
 ## Textbooks
