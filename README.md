@@ -10,7 +10,7 @@
 - Office hours: Mondays & Wednesdays 10:00am - 12:00pm (Room 344)
 - Class meeting: Wednesdays 2:00pm - 4:50pm (Room TBD)
 - Website: [https://6063D.github.io](https://6063D.github.io)
-- [Brightspace](https://brightspace.nyu.edu/d2l/home/312200)
+- [Brightspace](https://brightspace.nyu.edu/d2l/home/312200) (for assignment submissions)
 - Slack Channel: [#hersan-fall23-6063](https://app.slack.com/client/TCLDAQUSV/C05Q08V4EN8) on [https://idm-cc.slack.com](https://idm-cc.slack.com)
 
 ## Important Dates (for this course)
@@ -60,7 +60,7 @@ You will have weekly programming homework assignments to further practice and de
 
 In addition to the code, these assignments will require a short writeup that includes: sketches of the initial idea, experiments that didn't work, experiments that worked, but were left out for other reasons, any notes on aspects of the project you would like to keep working on if given more time, technical and conceptual sources, etc.
 
-Assignment submissions will be made on the [Brightspace platform](https://brightspace.nyu.edu/d2l/home/312200).
+Assignment submissions will be made through [Brightspace](https://brightspace.nyu.edu/d2l/home/312200).
 
 ### Readings
 
@@ -134,7 +134,7 @@ Letter grades for the entire course will be assigned as follows:
 - Discuss Reading
 - p5js: Loops and conditionals, functions and transforms, variation and randomness
 - Assignment: Drawing many shapes using loops and randomness
-- Reading: Art of Interactive Design (Chp 1) by Chris Crawford, [The Media Art Pose](http://www.flong.com/archive/texts/essays/essay_pose/index.html) by Golan Levin
+- Reading: Art of Interactive Design (Chp 1) by Chris Crawford / [The Media Art Pose](http://www.flong.com/archive/texts/essays/essay_pose/index.html) by Golan Levin
 
 ### Week 04 (2023/09/27)
 - Review Assignment
@@ -142,7 +142,7 @@ Letter grades for the entire course will be assigned as follows:
 - Some notes on debugging
 - p5js: Time and movement, flow control, objects
 - Assignment: Interactive and time-based shapes
-- Reading: The Stack (Intro) by Benjamin H. Bratton, [Worlds In Figures](https://worldsinfigures.com/tutorial) by Evan Roth
+- Reading: The Stack (Intro) by Benjamin H. Bratton / [Worlds In Figures](https://worldsinfigures.com/tutorial) by Evan Roth
 
 ### Week 05 (2023/10/04)
 - Review Assignment
@@ -159,7 +159,7 @@ Letter grades for the entire course will be assigned as follows:
 - Project Proposal Presentations
 - p5js: More objects, text and strings, images and videos
 - Assignment: Visual poetry
-- Reading: [Ways of seeing](https://www.youtube.com/watch?v=0pDE4VX_9Kk) (Part 1) by John Berger
+- Reading: Ways of seeing ([Part 1](https://www.youtube.com/watch?v=0pDE4VX_9Kk)) by John Berger
 - Midterm project: Pseudocode
 
 ### Week 07 (2023/10/18)
@@ -180,7 +180,7 @@ Letter grades for the entire course will be assigned as follows:
 - Discuss Reading
 - p5js: ML and image and audio processing
 - Assignment: Using the camera as an input device
-- Reading: The Atlas of AI (Intro) by Kate Crawford, [New Extractivism](https://extractivism.online/) by Vladan Joler
+- Reading: The Atlas of AI (Intro) by Kate Crawford / [New Extractivism](https://extractivism.online/) by Vladan Joler
 
 ### Week 10 (2023/11/08)
 - Review Assignment
@@ -248,15 +248,14 @@ There are no required books for class. Additional reading materials will be dist
 ## Optional Textbooks
 
 These books are excellent companions for the materials we'll be covering:
-- [Generative Design 2nd ed](http://www.generative-gestaltung.de/2/) by Benedikt Gross, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=5515144)
-- [Getting Started with p5js](https://www.oreilly.com/library/view/make-getting-started/9781457186769/) by Lauren McCarthy, Casey Reas, Ben Fry. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728)
-- [Form+Code](http://formandcode.com/code-examples/) by Casey Reas, Chandler McWilliams. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=3387346)
-- [Getting Started with Arduino 3rd ed](https://www.oreilly.com/library/view/getting-started-with/9781449363321/) by Massimo Banzi, Michael Shiloh. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=1887986)
+- [Generative Design 2nd ed](http://www.generative-gestaltung.de/2/) by Benedikt Gross, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni. [pdf (nyu lib)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=5515144)
+- [Getting Started with p5js](https://www.oreilly.com/library/view/make-getting-started/9781457186769/) by Lauren McCarthy, Casey Reas, Ben Fry. [pdf (nyu lib)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728)
+- [Form+Code](http://formandcode.com/code-examples/) by Casey Reas, Chandler McWilliams. [pdf (nyu lib)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=3387346)
+- [Getting Started with Arduino 3rd ed](https://www.oreilly.com/library/view/getting-started-with/9781449363321/) by Massimo Banzi, Michael Shiloh. [pdf (nyu lib)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=1887986)
 
 ## Resources
 
 - [Class Website](https://dm-gy-6063-2023f-d.github.io/)
-  - [Class Resources](https://dm-gy-6063-2023f-d.github.io/resources/)
 - [Books, articles, etc](https://library.nyu.edu)
 - [NYU Writing Center](https://nyu.mywconline.com)
 - [NYU IT Service](https://nyu.edu/it/servicedesk)
@@ -298,7 +297,7 @@ These [Social Rules from The Recurse Center](https://www.recurse.com/social-rule
 - [No backseat driving](https://www.recurse.com/social-rules#no-backseat-driving)
 - [No subtle -isms](https://www.recurse.com/social-rules#no-subtle-isms)
 
-Also, these observations from a [discussion about bots](https://www.crummy.com/2013/11/27/0) are a helpful reminder:
+Also, these observations from a [discussion about ethics in tech](https://www.crummy.com/2013/11/27/0) are a helpful reminder:
 
 *"There is a general rule for comedy and art: always punch up, never punch down. We let comedians and artists and miscellaneous jesters do outrageous things as long as they obey this rule. You can poke fun at yourself, you can make a joke at the expense of someone with higher social status than you, but if you mock someone with lower status, it's not cool."*
 
@@ -352,7 +351,7 @@ If you are a student with a disability who is requesting accommodations, please 
 
 If you are experiencing an illness or any other situation that might affect your academic performance in a class, please email the Office of Advocacy, Compliance and Student Affairs: [eng.studentadvocate@nyu.edu](mailto:eng.studentadvocate@nyu.edu).
 
-## Statement On Inclusion
+## Inclusion
 
 The NYU Tandon School values an inclusive and equitable environment for all our students. I hope to foster a sense of community in this class and consider it a place where individuals of all backgrounds, beliefs, ethnicities, national origins, gender identities, sexual orientations, religious and political affiliations, and abilities will be treated with respect.  It is my intent that all students’ learning needs be addressed, and that the diversity that students bring to this class be viewed as a resource, strength and benefit.  If this standard is not being upheld, please feel free to speak with me.
 

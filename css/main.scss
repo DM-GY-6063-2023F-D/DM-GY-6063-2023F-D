@@ -5,8 +5,10 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   --text-color: #ddd;
+  --text-color-h: #bbb;
   --text-color-a: #ff66b3;
   --text-color-a-h: #ff42a1;
   --bgnd-color: #222;
@@ -22,6 +24,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
+  justify-content: center;
 }
 
 a {
@@ -38,7 +41,9 @@ ul {
   padding-left: 16px;
 }
 
-table, td, th {
+table,
+td,
+th {
   border: 1px solid var(--text-color);
 }
 
@@ -47,7 +52,8 @@ table {
   border-collapse: collapse;
 }
 
-td, th {
+td,
+th {
   padding: 0 16px;
 }
 
@@ -56,6 +62,7 @@ td, th {
   flex-direction: column;
   position: sticky;
   width: 40%;
+  max-width: 400px;
   height: 100vh;
   top: 0;
   justify-content: center;
@@ -64,7 +71,7 @@ td, th {
 
 .content-container {
   flex: 1;
-  max-width: 620px;
+  max-width: 700px;
   padding: 12px;
 }
 
