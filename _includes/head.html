@@ -12,3 +12,11 @@
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/favicon.png">
 
 <script src="{{ site.baseurl }}/js/targets.js"></script>
+
+{% if page.url contains '/week/' or page.url contains '/schedule/' %}
+  <script src="{{ site.baseurl }}/js/week.js"></script>
+{% endif %}
+
+{% if page.url contains '/schedule/' %}
+  <script src="{{ site.baseurl }}/js/schedule.js"></script>
+{% endif %}

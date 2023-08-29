@@ -1,0 +1,84 @@
+{% assign p = include.page %}
+
+<h2 class="week-title {{ include.schedule }} {{ include.show }}">{{ p.title }} ({{ p.when }})</h2>
+
+<div class="week-content-container {{ include.schedule }} {{ include.show }}">
+  {% if p.what.size > 0 %}
+    <ul>
+    {% for w in p.what %}
+      <li>{{ w }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if p.p5js.size > 0 %}
+    <h3>p5.js:</h3>
+    <ul>
+    {% for p in p.p5js %}
+      <li>{{ p }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if p.arduino.size > 0 %}
+    <h3>Arduino:</h3>
+    <ul>
+    {% for a in p.arduino %}
+      <li>{{ a }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if p.readings.size > 0 %}
+    <h3 style="margin-bottom: 0px;">Recommended Readings:</h3>
+    <ul style="margin-left: 8px; margin-top: 0px;">
+    {% for r in p.readings %}
+      <li>
+        {{ r.title }}:
+        {% for u in r.urls %}
+          <a href="{{ u }}">[{{ forloop.index }}]</a>
+        {% endfor %}
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if p.videos.size > 0 %}
+    <h3>Recommended Videos:</h3>
+    <ul>
+    {% for v in p.videos %}
+      <li>
+        {{ v.title }}: 
+        {% for u in v.urls %}
+          <a href="{{ u }}">[{{ forloop.index }}]</a>
+        {% endfor %}
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
+  <h3 class="assignment-title">Assignment (due: {{ p.assignment.when }}):</h3>
+
+  <h4 class="assignment-content-title">Programming:</h4>
+  <div class="assignment-content-container">
+    {{ p.assignment.description | markdownify }}
+  </div>
+
+  <h4 class="assignment-content-title">Read & Respond:</h4>
+  <div class="assignment-content-container">
+    {{ p.reading.title | markdownify }}
+    {{ p.reading.intro | markdownify }}
+
+    {% for r in p.reading.readings %}
+      <div>
+        {{ forloop.index }}.
+        <a href="{{ r.url }}">
+          {{ r.title }} by {{ r.author }}<br>
+          {{ r.chapter }}<br>
+          (pdf pages {{ r.pages }})
+        </a>
+      </div>
+    {% endfor %}
+    {{ p.reading.description | markdownify }}
+  </div>
+</div>

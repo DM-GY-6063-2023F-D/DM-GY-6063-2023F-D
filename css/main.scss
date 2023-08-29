@@ -25,6 +25,7 @@ body {
   flex-direction: row;
   width: 100%;
   justify-content: center;
+  overflow-y: scroll;
 }
 
 a {
@@ -78,4 +79,57 @@ th {
 .menu {
   display: flex;
   flex-direction: column;
+}
+
+.week-title {
+  &.schedule {
+    margin-bottom: 0;
+    cursor: pointer;
+    text-decoration: underline;
+    color: var(--text-color);
+    &:hover {
+      color: var(--text-color-h);
+    }
+    &.show {
+      color: var(--text-color-a);
+      &:hover {
+        color: var(--text-color-a-h);
+      }
+    }
+  }
+}
+
+.week-content-container {
+  &.schedule {
+    height: 16px;
+    overflow: hidden;
+    &.show {
+      height: auto;
+    }
+  }
+}
+
+.assignment-content-title {
+  display: inline-block;
+  margin: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--text-color);
+  &:hover {
+    color: var(--text-color-h);
+  }
+  &.show {
+    color: var(--text-color-a);
+    &:hover {
+      color: var(--text-color-a-h);
+    }
+  }
+}
+
+.assignment-content-container {
+  height: 8px;
+  overflow: hidden;
+  &.show {
+    height: auto;
+  }
 }
