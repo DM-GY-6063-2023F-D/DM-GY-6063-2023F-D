@@ -2,19 +2,18 @@
 ---
 # Resources
 
-## DM-GY 6063 2023F D
-
 - [Course website](https://dm-gy-6063-2023f-d.github.io/)
 - [Brightspace](https://brightspace.nyu.edu/d2l/home/312200)
+- [Development Environment Setup](../setup/)
 - [p5js template repo](https://github.com/DM-GY-6063-2023F-D/p5js-template)
 
 ## Textbooks
 
 There are no required books for class, but these books are excellent companions for the materials we'll be covering:
-- [Generative Design 2nd ed](http://www.generative-gestaltung.de/2/) by Benedikt Gross, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=5515144)
-- [Getting Started with p5js](https://www.oreilly.com/library/view/make-getting-started/9781457186769/) by Lauren McCarthy, Casey Reas, Ben Fry. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728)
-- [Form+Code](http://formandcode.com/code-examples/) by Casey Reas, Chandler McWilliams. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=3387346)
-- [Getting Started with Arduino](https://www.oreilly.com/library/view/getting-started-with/9781449363321/) by Massimo Banzi, Michael Shiloh. [Ebook Central](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=1887986)
+- [Generative Design 2nd ed](http://www.generative-gestaltung.de/2/) by Benedikt Gross, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni. [pdf (nyu lib)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=5515144)
+- [Getting Started with p5js](https://www.oreilly.com/library/view/make-getting-started/9781457186769/) by Lauren McCarthy, Casey Reas, Ben Fry. [pdf (nyu lib)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728)
+- [Form+Code](http://formandcode.com/code-examples/) by Casey Reas, Chandler McWilliams. [pdf (nyu lib)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=3387346)
+- [Getting Started with Arduino](https://www.oreilly.com/library/view/getting-started-with/9781449363321/) by Massimo Banzi, Michael Shiloh. [pdf (nyu lib)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=1887986)
 
 ## Additional Reading Materials
 
