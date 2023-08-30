@@ -39,7 +39,7 @@ a {
 }
 
 ul {
-  padding-left: 16px;
+  padding-left: 1rem;
 }
 
 table,
@@ -55,7 +55,7 @@ table {
 
 td,
 th {
-  padding: 0 16px;
+  padding: 0 1rem;
 }
 
 .nav-container {
@@ -73,7 +73,7 @@ th {
 .content-container {
   flex: 1;
   max-width: 700px;
-  padding: 12px;
+  padding: 0.75rem;;
 }
 
 .menu {
@@ -101,7 +101,7 @@ th {
 
 .week-content-container {
   &.schedule {
-    height: 16px;
+    height: 1rem;
     overflow: hidden;
     &.show {
       height: auto;
@@ -110,10 +110,14 @@ th {
 
   .content-header {
     margin-bottom: 0px;
+
+    &.optional-readings {
+      margin-top: 1rem;
+    }
   }
 
   .content-list {
-    margin-left: 8px;
+    margin-left: 0.5rem;
     margin-top: 0px;
   }
 
@@ -141,7 +145,7 @@ th {
 }
 
 .assignment-content-container {
-  height: 8px;
+  height: 0.5rem;
   overflow: hidden;
   &.show {
     height: auto;

@@ -83,11 +83,10 @@
         </a>
       </div>
     {% endfor %}
-    {{ p.reading.description | markdownify }}
 
     {% if p.reading.optional.size > 0 %}
-      <div class="content-header">Optional Readings:</div>
-      <div class="content-list">
+      <div class="content-header optional-readings">Optional Readings:</div>
+      <div>
         {% for o in p.reading.optional %}
           <div>
             {{ forloop.index }}.
@@ -97,5 +96,7 @@
         {% endfor %}
         </div>
     {% endif %}
+
+    {{ p.reading.description | markdownify }}
   </div>
 </div>
