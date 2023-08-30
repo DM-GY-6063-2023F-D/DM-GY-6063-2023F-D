@@ -1,11 +1,13 @@
 {% assign weeks = site.pages | where_exp: "p", "p.url contains 'week/'" %}
+{% assign sch = "schedule" %}
 {% assign currentWeek = 20 %}
 
 {% for p in weeks | limit: 1 %}
-  {% capture show %}{% if forloop.index == currentWeek %}
-    show
-  {% endif %}{% endcapture %}
+  {% assign s = "" %}
+  {% if forloop.index == currentWeek %}
+    {% assign s = "show" %}
+  {% endif %}
 
-  {% include week.html page=p show=show schedule="schedule" %}
+  {% include week.html page=p show=s schedule=sch %}
   <hr>
 {% endfor %}
