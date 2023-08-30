@@ -12,8 +12,8 @@
   {% endif %}
 
   {% if p.p5js.size > 0 %}
-    <h3>p5.js:</h3>
-    <ul>
+    <h3 class="content-header">p5.js:</h3>
+    <ul class="content-list">
     {% for p in p.p5js %}
       <li>{{ p }}</li>
     {% endfor %}
@@ -21,8 +21,8 @@
   {% endif %}
 
   {% if p.arduino.size > 0 %}
-    <h3>Arduino:</h3>
-    <ul>
+    <h3 class="content-header">Arduino:</h3>
+    <ul class="content-list">
     {% for a in p.arduino %}
       <li>{{ a }}</li>
     {% endfor %}
@@ -30,8 +30,8 @@
   {% endif %}
 
   {% if p.readings.size > 0 %}
-    <h3 style="margin-bottom: 0px;">Recommended Readings:</h3>
-    <ul style="margin-left: 8px; margin-top: 0px;">
+    <h3 class="content-header">Recommended Readings:</h3>
+    <ul class="content-list">
     {% for r in p.readings %}
       <li>
         {{ r.title }}:
@@ -44,8 +44,8 @@
   {% endif %}
 
   {% if p.videos.size > 0 %}
-    <h3>Recommended Videos:</h3>
-    <ul>
+    <h3 class="content-header">Recommended Videos:</h3>
+    <ul class="content-list">
     {% for v in p.videos %}
       <li>
         {{ v.title }}: 
@@ -74,11 +74,28 @@
         {{ forloop.index }}.
         <a href="{{ r.url }}">
           {{ r.title }} by {{ r.author }}<br>
-          {{ r.chapter }}<br>
-          (pdf pages {{ r.pages }})
+          {% if r.chapter %}
+            <span class="avoidwrap">{{ r.chapter }}</span>
+          {% endif %}
+          {% if r.pages %}
+            <span class="avoidwrap">(pdf pages {{ r.pages }})</span>
+          {% endif %}
         </a>
       </div>
     {% endfor %}
     {{ p.reading.description | markdownify }}
+
+    {% if p.reading.optional.size > 0 %}
+      <div class="content-header">Optional Readings:</div>
+      <div class="content-list">
+        {% for o in p.reading.optional %}
+          <div>
+            {{ forloop.index }}.
+            <a href="{{ o.url }}">{{ o.title }}</a>
+            by {{ o.author }}
+          </div>
+        {% endfor %}
+        </div>
+    {% endif %}
   </div>
 </div>

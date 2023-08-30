@@ -107,6 +107,20 @@ th {
       height: auto;
     }
   }
+
+  .content-header {
+    margin-bottom: 0px;
+  }
+
+  .content-list {
+    margin-left: 8px;
+    margin-top: 0px;
+  }
+
+  span.avoidwrap {
+    text-decoration: underline;
+    display:inline-block;
+  }
 }
 
 .assignment-content-title {
