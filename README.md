@@ -116,6 +116,7 @@ Letter grades for the entire course will be assigned as follows:
 - Review Syllabus
 - Introduction
 - What is Programming
+- Intro to p5.js
 - Setting up dev environment
 - Assignment: setting up dev environment and empty p5js project
 - Reading: Program or Be Programmed (Intro) by Douglas Rushkoff
