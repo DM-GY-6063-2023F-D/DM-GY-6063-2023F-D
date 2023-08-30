@@ -57,7 +57,8 @@
     </ul>
   {% endif %}
 
-  {% assign hw = site.pages | where_exp: "h", "h.url contains '/homework/' and h.slug == p.slug" | first %}
+  {% assign phw = site.pages | where_exp: "h", "h.url contains '/homework/'" %} 
+  {% assign hw = phw | where_exp: "h", "h.slug == p.slug" | first %}
   <h3><a href="{{ hw.url }}">{{ hw.title }} | due: {{ hw.when }}</a></h3>
 
 </div>
