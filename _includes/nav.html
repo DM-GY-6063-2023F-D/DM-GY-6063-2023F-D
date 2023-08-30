@@ -2,7 +2,7 @@
   <div class="menu">
     <a href="{{ site.baseurl }}/">Syllabus</a>
     {% for p in site.pages %}
-      {% unless p.url contains "week" %}
+      {% unless p.url contains "week" or p.url contains "homework" %}
         <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
       {% endunless %}
     {% endfor %}

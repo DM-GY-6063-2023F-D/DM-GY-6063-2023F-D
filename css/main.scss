@@ -58,6 +58,10 @@ th {
   padding: 0 1rem;
 }
 
+.serif {
+  font-family: serif;
+}
+
 .nav-container {
   display: flex;
   flex-direction: column;
@@ -87,6 +91,7 @@ th {
     cursor: pointer;
     text-decoration: underline;
     color: var(--text-color);
+
     &:hover {
       color: var(--text-color-h);
     }
@@ -109,22 +114,28 @@ th {
   }
 
   .content-header {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 
     &.optional-readings {
-      margin-top: 1rem;
+      margin-top: 1.5rem;
     }
   }
 
   .content-list {
     margin-left: 0.5rem;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   span.avoidwrap {
-    text-decoration: underline;
     display:inline-block;
   }
+}
+
+h2.assignment-title {
+  margin-bottom: 0;
+}
+h3.assignment-title {
+  margin-top: 0;
 }
 
 .assignment-content-title {

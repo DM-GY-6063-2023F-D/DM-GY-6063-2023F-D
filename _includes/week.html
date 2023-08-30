@@ -57,46 +57,7 @@
     </ul>
   {% endif %}
 
-  <h3 class="assignment-title">Assignment (due: {{ p.assignment.when }}):</h3>
+  {% assign hw = site.pages | where_exp: "h", "h.url contains '/homework/' and h.slug == p.slug" | first %}
+  <h3><a href="{{ hw.url }}">{{ hw.title }} | due: {{ hw.when }}</a></h3>
 
-  <h4 class="assignment-content-title">Programming:</h4>
-  <div class="assignment-content-container">
-    {{ p.assignment.description | markdownify }}
-  </div>
-
-  <h4 class="assignment-content-title">Read & Respond:</h4>
-  <div class="assignment-content-container">
-    {{ p.reading.title | markdownify }}
-    {{ p.reading.intro | markdownify }}
-
-    {% for r in p.reading.readings %}
-      <div>
-        {{ forloop.index }}.
-        <a href="{{ r.url }}">
-          {{ r.title }} by {{ r.author }}<br>
-          {% if r.chapter %}
-            <span class="avoidwrap">{{ r.chapter }}</span>
-          {% endif %}
-          {% if r.pages %}
-            <span class="avoidwrap">(pdf pages {{ r.pages }})</span>
-          {% endif %}
-        </a>
-      </div>
-    {% endfor %}
-
-    {% if p.reading.optional.size > 0 %}
-      <div class="content-header optional-readings">Optional Readings:</div>
-      <div>
-        {% for o in p.reading.optional %}
-          <div>
-            {{ forloop.index }}.
-            <a href="{{ o.url }}">{{ o.title }}</a>
-            by {{ o.author }}
-          </div>
-        {% endfor %}
-        </div>
-    {% endif %}
-
-    {{ p.reading.description | markdownify }}
-  </div>
 </div>

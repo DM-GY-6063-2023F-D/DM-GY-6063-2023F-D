@@ -1,0 +1,46 @@
+{% assign hw = include.homework %}
+
+<div class="week-content-container">
+  <h2 class="assignment-title">{{ hw.title }}</h2>
+  <h3 class="assignment-title">Due: {{ hw.when }}</h3>
+
+  <h3 class="assignment-content-title">Programming:</h3>
+  <div class="assignment-content-container">
+    {{ hw.description | markdownify }}
+  </div>
+
+  <h3 class="assignment-content-title">Read & Respond:</h3>
+  <div class="assignment-content-container">
+    {{ hw.reading.title | markdownify }}
+    {{ hw.reading.intro | markdownify }}
+
+    {% for r in hw.reading.readings %}
+      <div>
+        {{ forloop.index }}.
+          <a href="{{ r.url }}">{{ r.title }}</a>
+          by {{ r.author }}<br>
+          {% if r.chapter %}
+            <span class="avoidwrap">{{ r.chapter }}</span>
+          {% endif %}
+          {% if r.pages %}
+            <span class="avoidwrap">(pdf pages {{ r.pages }})</span>
+          {% endif %}
+      </div>
+    {% endfor %}
+
+    {% if hw.reading.optional.size > 0 %}
+      <div class="content-header optional-readings">Optional Readings:</div>
+      <div>
+        {% for o in hw.reading.optional %}
+          <div>
+            {{ forloop.index }}.
+            <a href="{{ o.url }}">{{ o.title }}</a>
+            by {{ o.author }}
+          </div>
+        {% endfor %}
+        </div>
+    {% endif %}
+
+    {{ hw.reading.description | markdownify }}
+  </div>
+</div>
