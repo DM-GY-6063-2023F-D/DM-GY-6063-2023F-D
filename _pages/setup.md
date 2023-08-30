@@ -8,11 +8,11 @@ Like... a physical notebook with paper and some pens. This will be needed for no
 
 ## Git and Github
 
-Sign-up for a free [github](https://github.com) account. Pick a username, add your name to your profile, send me a link to your profile ([video](https://www.youtube.com/watch?v=ZVRuPO8nCLA)).
+Sign-up for a free [github](https://github.com) account and add your name to your profile ([video](https://www.youtube.com/watch?v=ZVRuPO8nCLA)).
 
 I recommend creating an organization for keeping this course's materials separate from other repositories or materials you might want to add to your account ([video](https://www.youtube.com/watch?v=wnFm5fYGzso)).
 
-Download and install [GitHub Desktop](https://desktop.github.com/). This is the easiest way to install and setup git, specially on Windows computers ([video](https://www.youtube.com/watch?v=dN5A0kDdCwk)). (Feel free to skip this if you already have git installed and you are comfortable using the command line interface).
+Download and install [GitHub Desktop](https://desktop.github.com/). This is the easiest way to install and setup git, specially on Windows computers ([video](https://www.youtube.com/watch?v=dN5A0kDdCwk)). (Feel free to skip this if you already have git installed or you are comfortable using the command line interface).
 
 ## Arduino IDE
 
