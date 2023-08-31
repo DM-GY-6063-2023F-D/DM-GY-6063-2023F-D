@@ -16,7 +16,7 @@ Download and install [GitHub Desktop](https://desktop.github.com/). This is the 
 
 ## Arduino IDE
 
-We'll be using the official Arduino IDE. It can be sownloaded [here](https://www.arduino.cc/en/software).
+We'll be using the official Arduino IDE. It can be downloaded [here](https://www.arduino.cc/en/software).
 
 ## p5js IDE
 
