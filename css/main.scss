@@ -96,8 +96,9 @@ th {
     span {
       text-decoration: underline;
       &::after {
-        font-size: 1rem;
+        font-size: 0.9rem;
         display: inline-block;
+        vertical-align: text-bottom;
         margin-left: 1rem;
         text-decoration: none;
         content: "\25BC";
@@ -166,8 +167,9 @@ h3.assignment-title {
   span {
     text-decoration: underline;
     &::after {
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       display: inline-block;
+      vertical-align: middle;
       margin-left: 1rem;
       text-decoration: none;
       content: "\25BC";
