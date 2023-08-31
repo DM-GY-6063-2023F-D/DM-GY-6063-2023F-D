@@ -7,8 +7,8 @@
 
 - Instructor: [Thiago Hersan](https://thiagohersan.com)
 - email: [tgh8114@nyu.edu](mailto:tgh8114@nyu.edu)
-- Office hours: Mondays & Wednesdays 10:00am - 12:00pm (Room 344)
-- Class meeting: Wednesdays 2:00pm - 4:50pm (Room TBD)
+- Office hours: Mondays & Wednesdays 10:00am - 12:00pm 370 Jay Street (Room 344)
+- Class meeting: Wednesdays 2:00pm - 4:50pm 370 Jay Street (Room TBD)
 - Website: [https://6063D.github.io](https://6063D.github.io)
 - [Brightspace](https://brightspace.nyu.edu/d2l/home/312200) (for assignment submissions)
 - Slack Channel: [#hersan-fall23-6063](https://app.slack.com/client/TCLDAQUSV/C05Q08V4EN8) on [https://idm-cc.slack.com](https://idm-cc.slack.com)
