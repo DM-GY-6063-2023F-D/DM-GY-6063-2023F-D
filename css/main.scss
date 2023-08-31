@@ -71,10 +71,6 @@ th {
   padding: 0 1rem;
 }
 
-.serif {
-  font-family: serif;
-}
-
 .nav-container {
   display: flex;
   flex-direction: column;
@@ -232,5 +228,30 @@ h3.assignment-title {
   overflow: hidden;
   &.show {
     height: auto;
+  }
+}
+
+.assignment-back-link {
+  span::before {
+    font-size: 0.7rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1rem;
+    text-decoration: none;
+    content: "\25C0";
+  }
+}
+
+.image-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .img-wrapper {
+    width: 30%;
+
+    img {
+      width: 100%;
+    }
   }
 }
