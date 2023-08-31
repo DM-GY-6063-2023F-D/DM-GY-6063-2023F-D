@@ -4,15 +4,15 @@
   <h2 class="assignment-title">{{ hw.title }}</h2>
   <h3 class="assignment-title">Due: {{ hw.when }}</h3>
 
-  {% if hw.description and hw.description.size > 0 %}
-    <h3 class="assignment-content-title"><span>Programming</span></h3>
+  {% if hw.programming.description and hw.programming.description.size > 0 %}
+    <h3 class="assignment-content-title"><span>Programming ({{ hw.programming.points }} points)</span></h3>
     <div class="assignment-content-container">
-      {{ hw.description | markdownify }}
+      {{ hw.programming.description | markdownify }}
     </div>
   {% endif %}
 
   {% if hw.reading and hw.reading.description.size > 0 %}
-    <h3 class="assignment-content-title"><span>Read & Respond</span></h3>
+    <h3 class="assignment-content-title"><span>Read & Respond ({{ hw.reading.points }} points)</span></h3>
     <div class="assignment-content-container">
       {{ hw.reading.title | markdownify }}
       {{ hw.reading.intro | markdownify }}
@@ -49,7 +49,7 @@
   {% endif %}
 
   {% if hw.project and hw.project.description.size > 0 %}
-    <h3 class="assignment-content-title"><span>Project</span></h3>
+    <h3 class="assignment-content-title"><span>Project ({{ hw.project.points }} points)</span></h3>
     <div class="assignment-content-container">
       {{ hw.project.description | markdownify }}
     </div>
