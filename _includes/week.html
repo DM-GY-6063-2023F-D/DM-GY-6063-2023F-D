@@ -1,6 +1,6 @@
 {% assign p = include.page %}
 
-<h2 class="week-title {{ include.schedule }} {{ include.show }}">{{ p.title }} ({{ p.when }})</h2>
+<h2 class="week-title {{ include.schedule }} {{ include.show }}"><span>{{ p.title }} ({{ p.when }})</span></h2>
 
 <div class="week-content-container {{ include.schedule }} {{ include.show }}">
   {% if p.what.size > 0 %}

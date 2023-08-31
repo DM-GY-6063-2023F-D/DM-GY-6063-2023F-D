@@ -76,7 +76,7 @@ th {
 
 .content-container {
   flex: 1;
-  max-width: 700px;
+  max-width: 666px;
   padding: 0.75rem;;
 }
 
@@ -87,18 +87,36 @@ th {
 
 .week-title {
   &.schedule {
+    display: inline-block;
+    margin-top: 1rem;
     margin-bottom: 0;
     cursor: pointer;
-    text-decoration: underline;
-    color: var(--text-color);
+    color: var(--text-color-a);
+
+    span {
+      text-decoration: underline;
+      &::after {
+        font-size: 1rem;
+        display: inline-block;
+        margin-left: 1rem;
+        text-decoration: none;
+        content: "\25BC";
+      }
+    }
 
     &:hover {
-      color: var(--text-color-h);
+      color: var(--text-color-a-h);
     }
+
     &.show {
+      color: var(--text-color);
       color: var(--text-color-a);
       &:hover {
+        color: var(--text-color-h);
         color: var(--text-color-a-h);
+      }
+      span::after {
+        content: "\25B2";
       }
     }
   }
@@ -143,14 +161,32 @@ h3.assignment-title {
   margin: 0;
   cursor: pointer;
   text-decoration: underline;
-  color: var(--text-color);
-  &:hover {
-    color: var(--text-color-h);
+  color: var(--text-color-a);
+
+  span {
+    text-decoration: underline;
+    &::after {
+      font-size: 0.8rem;
+      display: inline-block;
+      margin-left: 1rem;
+      text-decoration: none;
+      content: "\25BC";
+    }
   }
+
+  &:hover {
+    color: var(--text-color-a-h);
+  }
+
   &.show {
+    color: var(--text-color);
     color: var(--text-color-a);
     &:hover {
+      color: var(--text-color-h);
       color: var(--text-color-a-h);
+    }
+    span::after {
+      content: "\25B2";
     }
   }
 }
