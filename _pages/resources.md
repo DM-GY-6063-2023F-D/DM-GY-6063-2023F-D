@@ -3,6 +3,7 @@
 # Resources
 
 - [Course website](https://dm-gy-6063-2023f-d.github.io/)
+- [Course GitHub](https://github.com/dm-gy-6063-2023f-d/)
 - [Brightspace](https://brightspace.nyu.edu/d2l/home/312200)
 - [Development Environment Setup](../setup/)
 - [p5js template repo](https://github.com/DM-GY-6063-2023F-D/p5js-template)
