@@ -2,11 +2,10 @@
 ---
 # NYU | Tandon School of Engineering | Integrated Design & Media
 
-# DM-GY 6063 | Creative Coding
-# Fall 2023, Section D
+# DM-GY 6063 | Creative Coding<br>Fall 2023, Section D
 
 - Instructor: [Thiago Hersan](https://thiagohersan.com)
-- email: [tgh8114@nyu.edu](mailto:tgh8114@nyu.edu)
+- email: [thiago.hersan@nyu.edu](mailto:thiago.hersan@nyu.edu)
 - Office hours: Mondays & Wednesdays 10:00am - 12:00pm 370 Jay Street (Room 344)
 - Class meeting: Wednesdays 2:00pm - 4:50pm 370 Jay Street (Room TBD)
 - Website: [https://6063D.github.io](https://6063D.github.io)
