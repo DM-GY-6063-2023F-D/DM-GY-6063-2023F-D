@@ -251,7 +251,22 @@ h3.assignment-title {
     width: 30%;
 
     img {
+      cursor: pointer;
       width: 100%;
     }
+  }
+}
+
+.sl-overlay {
+  background: var(--bgnd-color) !important;
+}
+
+.sl-close,
+.sl-next,
+.sl-prev {
+  color: var(--text-color-a) !important;
+
+  &:hover {
+    color: var(--text-color-a-h) !important;
   }
 }
