@@ -10,7 +10,7 @@
 - Class meeting: Wednesdays 2:00pm - 4:50pm 370 Jay Street (Room 307)
 - Website: [https://6063D.github.io](https://6063D.github.io)
 - [Brightspace](https://brightspace.nyu.edu/d2l/home/312200) (for assignment submissions)
-- Slack Channel: [#hersan-fall23-6063](https://app.slack.com/client/TCLDAQUSV/C05Q08V4EN8) on [https://idm-cc.slack.com](https://idm-cc.slack.com)
+<!-- - Slack Channel: [#hersan-fall23-6063](https://app.slack.com/client/TCLDAQUSV/C05Q08V4EN8) on [https://idm-cc.slack.com](https://idm-cc.slack.com) -->
 
 ## Important Dates (for this course)
 
@@ -57,7 +57,7 @@ Some of the other class activities are discussed in detail below.
 
 You will have weekly programming homework assignments to further practice and develop the concepts covered in class. These will be simple exercises at first, but will get more substancial as the semester progresses. They won't necessarily get more difficult, but will gradually become less prescriptive and allow for greater creative flexibility and experimentation.
 
-In addition to the code, these assignments will require a short writeup that includes: sketches of the initial idea, experiments that didn't work, experiments that worked, but were left out for other reasons, any notes on aspects of the project you would like to keep working on if given more time, technical and conceptual sources, etc.
+In addition to the code, these assignments will require a short writeup that includes: sketches of the initial idea, description of your strategy, experiments that didn't work, experiments that worked, but were left out for other reasons, any notes on aspects of the project you would like to keep working on if given more time, technical and conceptual references, etc.
 
 Assignment submissions will be made through [Brightspace](https://brightspace.nyu.edu/d2l/home/312200).
 
