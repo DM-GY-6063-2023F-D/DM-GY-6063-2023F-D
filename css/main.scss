@@ -275,3 +275,16 @@ h3.assignment-title {
     color: var(--text-color-a-h) !important;
   }
 }
+
+@media print {
+  html,
+  body {
+    --text-color: #000;
+    --text-color-h: #111;
+    --bgnd-color: #fff;
+    --bgnd-color-h: #eee;
+  }
+  .nav-container {
+    display: none;
+  }
+}
