@@ -38,7 +38,7 @@ Students in this course will:
 - Learn the basics of programming and creative coding using Javascript with the [p5.js](https://p5js.org/) library and C++ with the [Arduino](https://www.arduino.cc/) platform.
 - Write code and develop interactive projects within the context of visual art and design.
 - Apply their understanding of digital media to software.
-- Make connections between larger social experiences/issues and the process of software development.
+- Think critically about technology and its social, economical and political effects.
 - Learn best practices for designing software within an event-driven, object-oriented, real time framework.
 - Experiment with different techniques for data processing and user input/output.
 - Propose and develop a complete software experience as a final project.
