@@ -61,6 +61,15 @@
     </div>
   {% endif %}
 
+  {% if hw.quiz %}
+    <h3 class="assignment-content-title quiz-title">
+      <span>Quiz ({{ hw.quiz.points }} points)</span>
+    </h3>
+    <div class="assignment-content-container">
+      {{ hw.quiz.title }}: <a href="{{ hw.quiz.url }}">Brightspace</a>
+    </div>
+  {% endif %}
+
   <div class="assignment-back-container">
     <a class="assignment-back-link" href="{{ site.baseurl }}{{ page.url | replace: '/homework/', '/week/' }}">
       <span>Back to week {{ page.slug }} material</span>
