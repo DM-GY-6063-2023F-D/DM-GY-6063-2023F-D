@@ -10,7 +10,7 @@
 - Class meeting: Wednesdays 2:00pm - 4:50pm 370 Jay Street (Room 307)
 - Website: [https://6063D.github.io](https://6063D.github.io)
 - [Brightspace](https://brightspace.nyu.edu/d2l/home/312200) (for assignment submissions)
-<!-- - Slack Channel: [#hersan-fall23-6063](https://app.slack.com/client/TCLDAQUSV/C05Q08V4EN8) on [https://idm-cc.slack.com](https://idm-cc.slack.com) -->
+- Slack Channel: [#hersan-fall23-6063](https://app.slack.com/client/TCLDAQUSV/C05Q08V4EN8) on [https://idm-cc.slack.com](https://idm-cc.slack.com)
 
 ## Important Dates (for this course)
 
