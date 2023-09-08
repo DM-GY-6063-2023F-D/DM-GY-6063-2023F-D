@@ -125,14 +125,14 @@ Letter grades for the entire course will be assigned as follows:
 - Discuss Reading
 - Math Review
 - What is Git
-- p5js: Functions and variables, pixels and canvas, mouse and events
+- p5js: Functions and variables, pixels and canvas, transforms
 - Assignment: Drawing shapes with p5js
 - Reading: Software Studies: A Lexicon (Intro) by Matthew Fuller
 
 ### Week 03 (2023/09/20)
 - Review Assignment
 - Discuss Reading
-- p5js: Loops and conditionals, functions and transforms, variation and randomness
+- p5js: Loops and conditionals, functions and objects, variation and randomness
 - Assignment: Drawing many shapes using loops and randomness
 - Reading: Art of Interactive Design (Chp 1) by Chris Crawford / [The Media Art Pose](http://www.flong.com/archive/texts/essays/essay_pose/index.html) by Golan Levin
 
@@ -140,7 +140,7 @@ Letter grades for the entire course will be assigned as follows:
 - Review Assignment
 - Discuss Reading
 - Some notes on debugging
-- p5js: Time and movement, flow control, objects
+- p5js: Time and movement, mouse and events, flow control, more objects
 - Assignment: Interactive and time-based shapes
 - Reading: The Stack (Intro) by Benjamin H. Bratton / [Worlds In Figures](https://worldsinfigures.com/tutorial) by Evan Roth
 
