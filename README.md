@@ -6,7 +6,7 @@
 
 - Instructor: [Thiago Hersan](https://thiagohersan.com)
 - email: [thiago.hersan@nyu.edu](mailto:thiago.hersan@nyu.edu)
-- Office hours: Mondays & Wednesdays 10:00am - 12:00pm 370 Jay Street (Room 344)
+- Office hours: Mondays & Wednesdays 10:00am - 12:00pm 370 Jay Street (IDM Grad Lab Room 325A)
 - Class meeting: Wednesdays 2:00pm - 4:50pm 370 Jay Street (Room 307)
 - Website: [https://6063D.github.io](https://6063D.github.io)
 - [Brightspace](https://brightspace.nyu.edu/d2l/home/312200) (for assignment submissions)
@@ -229,7 +229,7 @@ Students should expect to spend roughly 5 hours each week on supplemental work i
 
 ## Office Hours
 
-I will be available for 2 hours a week to answer questions, help with assignments, chat about creative code, etc. These will be in the Adjunct Faculty Office (Room 344) on Mondays and Wednesdays from 10:00am to 12:00pm.
+I will be available for 2 hours a week to answer questions, help with assignments, chat about creative code, etc. These will be in the IDM Grad Lab (Room 325A) on Mondays and Wednesdays from 10:00am to 12:00pm.
 
 These are not mandatory. If you have questions or need help with some aspect of the material, but are unable to attend these, send me an email and we'll find a time to meet.
 
