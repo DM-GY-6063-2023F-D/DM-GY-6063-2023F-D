@@ -1,8 +1,8 @@
 {% assign weeks = site.pages | where_exp: "p", "p.url contains 'week/'" %}
 {% assign sch = "schedule" %}
-{% assign currentWeek = 20 %}
+{% assign currentWeek = 100 %}
 
-{% for p in weeks limit:1 %}
+{% for p in weeks limit:2 %}
   {% assign s = "" %}
   {% if forloop.index == currentWeek %}
     {% assign s = "show" %}
