@@ -29,6 +29,17 @@
     </ul>
   {% endif %}
 
+  {% if p.class.size > 0 %}
+    <h3 class="content-header">Class Materials:</h3>
+    <ul class="content-list">
+      {% for m in p.class %}
+        <li>
+          <a href="{{ m.url }}">{{ m.title }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+  {% endif %}
+
   {% if p.readings.size > 0 %}
     <h3 class="content-header">Recommended Readings:</h3>
     <ul class="content-list">
