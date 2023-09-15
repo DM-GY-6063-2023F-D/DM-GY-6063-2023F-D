@@ -134,7 +134,7 @@ Letter grades for the entire course will be assigned as follows:
 - Discuss Reading
 - p5js: Loops and conditionals, functions and objects, variation and randomness
 - Assignment: Drawing many shapes using loops and randomness
-- Reading: Art of Interactive Design (Chp 1) by Chris Crawford / [The Media Art Pose](http://www.flong.com/archive/texts/essays/essay_pose/index.html) by Golan Levin
+- Reading: Glitch Feminism (Intro) by Legacy Russell / [Cyberfeminism Index](https://cyberfeminismindex.com/)
 
 ### Week 04 (2023/09/27)
 - Review Assignment
@@ -142,7 +142,7 @@ Letter grades for the entire course will be assigned as follows:
 - Some notes on debugging
 - p5js: Time and movement, mouse and events, flow control, more objects
 - Assignment: Interactive and time-based shapes
-- Reading: The Stack (Intro) by Benjamin H. Bratton / [Worlds In Figures](https://worldsinfigures.com/tutorial) by Evan Roth
+- Reading: Art of Interactive Design (Chp 1) by Chris Crawford / [The Media Art Pose](http://www.flong.com/archive/texts/essays/essay_pose/index.html) by Golan Levin
 
 ### Week 05 (2023/10/04)
 - Review Assignment
@@ -206,6 +206,7 @@ Letter grades for the entire course will be assigned as follows:
 - Arduino: WiFi and BLE
 - Assignment: Physical interfaces: controlling p5js with arduino
 - Reading: The Marvelous Clouds (Intro) by John Durham Peters
+- Reading: The Stack (Intro) by Benjamin H. Bratton / [Worlds In Figures](https://worldsinfigures.com/tutorial) by Evan Roth
 
 ### Week 13 (2023/12/06)
 - Review Assignment
