@@ -253,6 +253,13 @@ h3.assignment-title {
   flex-direction: row;
   justify-content: space-between;
 
+  &.image-row-2 {
+    width: 66%;
+    .img-wrapper {
+      width: 45%
+    }
+  }
+
   .img-wrapper {
     width: 30%;
 
@@ -260,6 +267,16 @@ h3.assignment-title {
       cursor: pointer;
       width: 100%;
     }
+  }
+}
+
+.video-container {
+  height: 200px;
+  margin: 0 auto;
+  video {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
   }
 }
 
