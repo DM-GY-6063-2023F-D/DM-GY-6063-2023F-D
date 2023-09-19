@@ -132,7 +132,7 @@ Letter grades for the entire course will be assigned as follows:
 ### Week 03 (2023/09/20)
 - Review Assignment
 - Discuss Reading
-- p5js: Loops and conditionals, functions and objects, variation and randomness
+- p5js: Loops and conditionals, variation and randomness
 - Assignment: Drawing many shapes using loops and randomness
 - Reading: Glitch Feminism (Intro) by Legacy Russell / [Cyberfeminism Index](https://cyberfeminismindex.com/)
 
@@ -140,7 +140,7 @@ Letter grades for the entire course will be assigned as follows:
 - Review Assignment
 - Discuss Reading
 - Some notes on debugging
-- p5js: Time and movement, mouse and events, flow control, more objects
+- p5js: Time and movement, mouse and events, functions and objects
 - Assignment: Interactive and time-based shapes
 - Reading: Art of Interactive Design (Chp 1) by Chris Crawford / [The Media Art Pose](http://www.flong.com/archive/texts/essays/essay_pose/index.html) by Golan Levin
 
