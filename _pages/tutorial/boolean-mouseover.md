@@ -63,3 +63,9 @@ Could we do something similar with a non-square rectangle? what would have to ch
 What about a circle or an ellipse ?
 
 What if we wanted to detect clicks inside the square ?
+
+<div class="assignment-back-container">
+  <a class="assignment-back-link" href="{{ site.baseurl }}/week/03">
+    <span>Back to week 03 material</span>
+  </a>
+</div>
