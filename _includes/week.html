@@ -40,6 +40,17 @@
       </ul>
   {% endif %}
 
+  {% if p.tutorials.size > 0 %}
+  <h3 class="content-header">Tutorials:</h3>
+  <ul class="content-list">
+    {% for t in p.tutorials %}
+      <li>
+        <a href="{{ site.baseurl }}{{ t.url }}">{{ t.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
   {% if p.readings.size > 0 %}
     <h3 class="content-header">Recommended Readings:</h3>
     <ul class="content-list">
