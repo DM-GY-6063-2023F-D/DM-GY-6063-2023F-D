@@ -140,7 +140,7 @@ Letter grades for the entire course will be assigned as follows:
 - Review Assignment
 - Discuss Reading
 - Some notes on debugging
-- p5js: Time and movement, mouse and events, functions and objects
+- p5js: Functions, time and movement, mouse and events
 - Assignment: Interactive and time-based shapes
 - Reading: Art of Interactive Design (Chp 1) by Chris Crawford / [The Media Art Pose](http://www.flong.com/archive/texts/essays/essay_pose/index.html) by Golan Levin
 
