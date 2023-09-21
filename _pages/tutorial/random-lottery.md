@@ -26,6 +26,11 @@ Much better! But our circles are still random gray and not black and white and r
 
 There are a few ways to achieve this, but let's start by using the ```random()``` function to give us a number betweeen 0 and 1.0. Since all the values between 0 and 1.0 are equally likely to occur, about half of the number will be less than 0.5 and the other half will be greater than 0.5.
 
+If we image a number line and 50 random points along that line, about 25 of them will be less than 0.5 and the rest will be greater than 0.5:
+<div style="width:80%;" markdown=1>
+  <img style="width: 100%;" src="{{ site.baseurl }}/assets/tutorials/random-lottery-00.jpg">
+</div>
+
 Putting this in pseudo-code, our logic could be:  
 ```aRandomNumber = random()```  
 ```if aRandomNumber < 0.5: draw a white circle```  
@@ -49,10 +54,24 @@ Cool ! What if want 3 colors now, like some R, G, B circles? We could do somethi
 
 Green and blue circles happen with similar frequency, but it seems like there are more red circles. Twice as many red circles, actually. In the previous code we were asking p5.js to draw red circles half of the time, and then to split the remaining half again in half, so blue and green only happen 25% of the time each.
 
-Well... what if we draw a random number between 0 and 1 and save it in a variable. Now we can use this number multiple times in multiple ```if()``` statements and check if it falls between certain ranges. If we want something to happen about one-third of the time, that's the same as asking if the random number is less than 0.3333, because of all the numbers between 0 and 1 one-third of them are less than 0.3333. In pseudo-code this can be:  
+We implemented something like this:
+<div style="width:80%;" markdown=1>
+  <img style="width: 100%;" src="{{ site.baseurl }}/assets/tutorials/random-lottery-01.jpg">
+</div>
+
+Well... what if we draw a random number between 0 and 1 and save it in a variable. Now we can use this number multiple times in multiple ```if()``` statements and check if it falls between certain ranges. If we want something to happen about one-third of the time, that's the same as asking if the random number is less than 0.3333, because of all the numbers between 0 and 1 one-third of them are less than 0.3333.
+
+We're implementing something like this:
+<div style="width:80%;" markdown=1>
+  <img style="width: 100%;" src="{{ site.baseurl }}/assets/tutorials/random-lottery-02.jpg">
+</div>
+
+In pseudo-code this can be:  
 ```if aRandomNumer < 0.333: draw red```
 
-If the number is greater than 0.3333 we can now just check if it's also less than 0.6666. Doing this after we checked that it's greater than 0.3333 guarantees that our random number is between 0.3333 and 0.6666, an interval that accounts for another third of the numbers between 0 and 1. In pseudo-code:  
+If the number is greater than 0.3333 we can now just check if it's also less than 0.6666. Doing this after we checked that it's greater than 0.3333 guarantees that our random number is between 0.3333 and 0.6666, an interval that accounts for another third of the numbers between 0 and 1.
+
+In pseudo-code:  
 ```if aRandomNumer < 0.333: draw red```  
 ```else if aRandomNumer < 0.666: draw green```
 
@@ -68,7 +87,14 @@ Hooray.
 
 Doing a lottery selection like this is a bit cumbersome, but it gives us a way to precisely control how often something happens. If we want to have different events happen with different probabilities we can just change the values we check against in our if/else-if/else logic statements.
 
-Let's say we want to use six colors: red, green, blue, cyan, pink, yellow, and we want pink one-third of the time, red one-quarter of the time and the other colors one-tenth of the time. To work with values that add up to 100% let's use pink: 35%, red: 25%, and 10% for all others. Our pseudo-code could be something like:  
+Let's say we want to use six colors: red, green, blue, cyan, pink, yellow, and we want pink one-third of the time, red one-quarter of the time and the other colors one-tenth of the time. To work with values that add up to 100% let's use pink: 35%, red: 25%, and 10% for all others.
+
+Something like this:
+<div style="width:80%;" markdown=1>
+  <img style="width: 100%;" src="{{ site.baseurl }}/assets/tutorials/random-lottery-03.jpg">
+</div>
+
+Our pseudo-code could be something like:  
 ```aRandomNumber = random()```  
 ```if aRandomNumber < 0.35: draw pink```  
 ```else if aRandomNumber < 0.60: draw red```  
