@@ -121,8 +121,7 @@ Letter grades for the entire course will be assigned as follows:
 - Reading: Program or Be Programmed (Intro) by Douglas Rushkoff
 
 ### Week 02 (2023/09/13)
-- Review Assignment
-- Discuss Reading
+- Review Assignment & Reading
 - Math Review
 - What is Git
 - p5js: Functions and variables, pixels and canvas, transforms
@@ -130,32 +129,28 @@ Letter grades for the entire course will be assigned as follows:
 - Reading: Software Studies: A Lexicon (Intro) by Matthew Fuller
 
 ### Week 03 (2023/09/20)
-- Review Assignment
-- Discuss Reading
+- Review Assignment & Reading
 - p5js: Loops and conditionals, variation and randomness
 - Assignment: Drawing many shapes using loops and randomness
 - Reading: Glitch Feminism (Intro) by Legacy Russell / [Cyberfeminism Index](https://cyberfeminismindex.com/)
 
 ### Week 04 (2023/09/27)
-- Review Assignment
-- Discuss Reading
-- Some notes on debugging
+- Review Assignment & Reading
+- Pseudocode
 - p5js: Functions, time and movement, mouse and events
 - Assignment: Interactive and time-based shapes
 - Reading: Art of Interactive Design (Chp 1) by Chris Crawford / [The Media Art Pose](http://www.flong.com/archive/texts/essays/essay_pose/index.html) by Golan Levin
 
 ### Week 05 (2023/10/04)
-- Review Assignment
-- Discuss Reading
-- Pseudocode
+- Review Assignment & Reading
+- Some notes on debugging
 - p5js: Arrays and dictionaries, data, CSV and JSON
 - Assignment: Data visualization
 - Reading: W. E. B. Du Bois's Data Portraits (Intro and Plates) by Britt Rusert and Whitney Battle-Baptiste
 - Midterm project: Proposal
 
 ### Week 06 (2023/10/11)
-- Review Assignment
-- Discuss Reading
+- Review Assignment & Reading
 - Project Proposal Presentations
 - p5js: More objects, text and strings, images and videos
 - Assignment: Visual poetry
@@ -163,8 +158,7 @@ Letter grades for the entire course will be assigned as follows:
 - Midterm project: Pseudocode
 
 ### Week 07 (2023/10/18)
-- Review Assignment
-- Discuss Reading
+- Review Assignment & Reading
 - p5js: Camera and microphone, image and audio processing
 - Assignment: Midterm project
 
@@ -175,15 +169,13 @@ Letter grades for the entire course will be assigned as follows:
 - Reading: Nonhuman Photography (Intro) by Joanna Zylinska
 
 ### Week 9 (2023/11/01)
-- Review Assignment
-- Discuss Reading
+- Review Assignment & Reading
 - p5js: The DOM, ML and image and audio processing
 - Assignment: Using the camera as an input device
 - Reading: The Atlas of AI (Intro) by Kate Crawford / [New Extractivism](https://extractivism.online/) by Vladan Joler
 
 ### Week 10 (2023/11/08)
-- Review Assignment
-- Discuss Reading
+- Review Assignment & Reading
 - Working with electricity
 - Analog vs Digital
 - Arduino: Setup, wires, inputs and outputs, analog and digital
@@ -191,8 +183,7 @@ Letter grades for the entire course will be assigned as follows:
 - Reading: Race After Technology (Intro) by Ruha Benjamin
 
 ### Week 11 (2023/11/15)
-- Review Assignment
-- Discuss Reading
+- Review Assignment & Reading
 - Finite State Machines
 - Arduino: More analog I/O, serial communication
 - Assignment: Password machine
@@ -200,8 +191,7 @@ Letter grades for the entire course will be assigned as follows:
 - Final Project: Description
 
 ### Week 12 (2023/11/29)
-- Review Assignment
-- Discuss Reading
+- Review Assignment & Reading
 - Project Proposal Presentations
 - Arduino: WiFi and BLE
 - Assignment: Physical interfaces: controlling p5js with arduino
@@ -209,8 +199,7 @@ Letter grades for the entire course will be assigned as follows:
 - Reading: The Stack (Intro) by Benjamin H. Bratton / [Worlds In Figures](https://worldsinfigures.com/tutorial) by Evan Roth
 
 ### Week 13 (2023/12/06)
-- Review Assignment
-- Discuss Reading
+- Review Assignment & Reading
 - Final Project: Workshop
 - Reading: The Question Concerning Technology in China (Intro) by Yuk Hui
 
