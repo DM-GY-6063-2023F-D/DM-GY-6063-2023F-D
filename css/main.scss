@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-$mobile-max: 720px;
+$mobile-max: 800px;
 
 html,
 body {
@@ -33,6 +33,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
+  justify-content: space-evenly;
   justify-content: center;
   overflow-y: scroll;
 
@@ -76,17 +77,19 @@ th {
   flex-direction: column;
   position: sticky;
   width: 30%;
-  max-width: 400px;
+  max-width: 360px;
   height: 100vh;
   top: 0;
+  padding-left: 0.75rem;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 
   @media screen and (max-width: $mobile-max) {
     min-width: 100%;
     background-color: var(--bgnd-color-h);
     height: auto;
     flex-direction: row;
+    padding-left: 0;
   }
 
   .nav-content-container {
@@ -101,7 +104,7 @@ th {
 
 .content-container {
   flex: 1;
-  max-width: 800px;
+  max-width: 720px;
   padding: 0.75rem;
 }
 

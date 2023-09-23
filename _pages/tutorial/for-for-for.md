@@ -16,7 +16,7 @@ First, variables! Let's make it so we can easily change circle diameter, start l
 
 {% include p5-editor.html id="eIciIRIbO" %}
 
-😮‍💨😌... Better ! This way we can easily change the size of our circles (```cDiam```), where they start (```xOffset```), the distance between their centers (```xSpacing```) and their vertical location (```yPos```). Take some time to change those variables and re-run the code to see exactly what each of them does. Fun, right? But we're still repeating a bunch of code 🤦🙈 !
+Better ! This way we can easily change the size of our circles (```cDiam```), where they start (```xOffset```), the distance between their centers (```xSpacing```) and their vertical location (```yPos```). Take some time to change those variables and re-run the code to see exactly what each of them does. Fun, right? But we're still repeating a bunch of code!
 
 ```for()``` loops to the rescue! We can refactor the code above into this simpler structure:
 
@@ -32,7 +32,7 @@ The second way requires more changes to the code, so we can keep track of the nu
 
 {% include p5-editor.html id="HSm5NKWcx" %}
 
-🤔🧐🤓... There's a lot of new stuff there. We declared a new variable ```numCircles``` that defines how many circles we want to draw (7 for now). In our ```for``` statement we have ```cCnt``` now, which keeps track of the number of circles drawn. It iterates from 0 to ```numCircles```. In this case it goes from 0 to 6. *Wait... what!? Weren't we drawing 7 circles??* Yes!, but if you count from 0 to 6 (0, 1, 2, 3, 4, 5, 6) that's actually 7 numbers. That's a bit confusing at first, but we'll see this a lot and get used to the fact that in programming we usually start counting from 0.
+There's a lot of new stuff there. We declared a new variable ```numCircles``` that defines how many circles we want to draw (7 for now). In our ```for``` statement we have ```cCnt``` now, which keeps track of the number of circles drawn. It iterates from 0 to ```numCircles```. In this case it goes from 0 to 6. *Wait... what!? Weren't we drawing 7 circles??* Yes!, but if you count from 0 to 6 (0, 1, 2, 3, 4, 5, 6) that's actually 7 numbers. That's a bit confusing at first, but we'll see this a lot and get used to the fact that in programming we usually start counting from 0.
 
 What about this: ```let xPos = xOffset + cCnt * xSpacing;```?
 
@@ -54,7 +54,7 @@ Nested ```for()``` loops to the rescue! We can just copy the whole loop statemen
 
 {% include p5-editor.html id="28Cn1Jm1t" %}
 
-Cool ! 😎🍦
+😎🍦
 
 Now we can play with all the variables and see how they change the drawing:
 
@@ -78,7 +78,7 @@ And if we really want to stretch our looping abilities we can add another level 
 
 Take some time to play with this code and make sure all the variables and loops make sense.
 
-Loops are very powerful constructs in programming. Looking at the code above, we're drawing many many circles (how many exactly?), but our code only has one line with one ```ellipse()``` command 🤯⚡️🧠.
+Loops are very powerful constructs in programming. Looking at the code above, we're drawing many many circles (how many exactly?), but our code only has one line with one ```ellipse()``` command.
 
 As always, since we are using variables everywhere we can change their values or use them to change our circle at each iteration of our loop:
 
