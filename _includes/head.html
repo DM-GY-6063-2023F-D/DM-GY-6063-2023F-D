@@ -22,3 +22,7 @@
 {% if page.url contains '/schedule/' %}
   <script src="{{ site.baseurl }}/js/schedule.js"></script>
 {% endif %}
+
+{% if page.path contains '/tutorial/' %}
+  <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+{% endif %}
