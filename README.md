@@ -152,19 +152,19 @@ Letter grades for the entire course will be assigned as follows:
 ### Week 06 (2023/10/11)
 - Review Assignment & Reading
 - Project Proposal Presentations
-- p5js: More objects, text and strings, images and videos
+- p5js: More objects, text and strings
 - Assignment: Visual poetry
 - Reading: Ways of seeing ([Part 1](https://www.youtube.com/watch?v=0pDE4VX_9Kk)) by John Berger
 - Midterm project: Pseudocode
 
 ### Week 07 (2023/10/18)
 - Review Assignment & Reading
-- p5js: Camera and microphone, image and audio processing
+- p5js: Pictures and videos, image processing
 - Assignment: Midterm project
 
 ### Week 08 (2023/10/25)
 - Midterm Project Presentations
-- p5js: Libraries: audio and video
+- p5js: Libraries: audio and video, camera and microphone
 - Assignment: Audio/video distortion using external library
 - Reading: Nonhuman Photography (Intro) by Joanna Zylinska
 
