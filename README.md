@@ -152,7 +152,7 @@ Letter grades for the entire course will be assigned as follows:
 ### Week 06 (2023/10/11)
 - Review Assignment & Reading
 - Project Proposal Presentations
-- p5js: More objects, text and strings
+- p5js: Objects, text and strings
 - Assignment: Visual poetry
 - Reading: Ways of seeing ([Part 1](https://www.youtube.com/watch?v=0pDE4VX_9Kk)) by John Berger
 - Midterm project: Pseudocode
