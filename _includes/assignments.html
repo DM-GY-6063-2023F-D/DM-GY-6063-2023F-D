@@ -1,0 +1,7 @@
+{% assign assignments = site.pages | where_exp: "p", "p.url contains 'homework/'" %}
+
+<div class="assignment-list-container">
+  {% for hw in assignments %}
+    <h3><a href="{{ hw.url }}">{{ hw.title }} | due: {{ hw.when }}</a></h3>
+  {% endfor %}
+</div>
