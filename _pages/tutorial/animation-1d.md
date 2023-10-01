@@ -1,5 +1,7 @@
 ---
 title: 1D Animation
+week: 4
+order: 1
 ---
 
 <h2 class="week-title">{{ page.title }}</h2>

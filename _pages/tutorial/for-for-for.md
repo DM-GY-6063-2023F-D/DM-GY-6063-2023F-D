@@ -1,5 +1,7 @@
 ---
 title: For Loops
+week: 3
+order: 1
 ---
 
 <h2 class="week-title">{{ page.title }}</h2>

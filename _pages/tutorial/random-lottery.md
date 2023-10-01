@@ -1,5 +1,7 @@
 ---
 title: Random Lottery
+week: 3
+order: 3
 ---
 
 <h2 class="week-title">{{ page.title }}</h2>
@@ -46,7 +48,6 @@ if(random() < 0.5) {
 ```
 
 {% include p5-editor.html id="nHxhbdN7G" %}
-
 
 Cool ! What if want 3 colors now, like some R, G, B circles? We could do something similar. Draw a number, if it's less than half, draw a red circle, otherwise, draw another number and repeat the process to pick between green and blue. This works, but what do we notice about the frequency of the three colors?
 
