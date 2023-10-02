@@ -40,11 +40,11 @@ let mDiam = maxDiam - mDiamInv + minDiam;
 
 This is where ['''map()'''](https://p5js.org/reference/#/p5/map) comes in. It's a function that maps a value from one range to another.
 
-If we want to map the value of ```mouseY``` from a range of $$[0, height] \rightarrow [minDiameter, maxDiameter]$$, we can just use: ```let mDiam = map(mouseY, 0, height, minDiam, maxDiam);```:
+If we want to map the value of ```mouseY``` from a range of $$[0, height] \rightarrow [40, 200]$$, we can just use: ```let mDiam = map(mouseY, 0, height, minDiam, maxDiam);```:
 
 {% include p5-editor.html id="SPem8nNRO" %}
 
-Likewise, if we want to reverse the logic and have larger circle at the top of the screen and smaller circle at the bottom, or, map : $$[0, height] \rightarrow [maxDiameter, minDiameter]$$, we just swap ```minDiam``` and ```maxDiam```: ```let mDiam = map(mouseY, 0, height, maxDiam, minDiam);```:
+Likewise, if we want to reverse the logic and have larger circle at the top of the screen and smaller circle at the bottom, we just swap ```minDiam``` and ```maxDiam```: ```let mDiam = map(mouseY, 0, height, maxDiam, minDiam);```:
 
 {% include p5-editor.html id="5d4Q2aSJ6" %}
 
@@ -72,7 +72,7 @@ We can even do something where our counter $$[0, 16]$$ gets mapped to *three* di
 
 ---
 
-The ```map()``` function is also very useful when drawing time. In this example we map the seconds that have passed in the current minute of time to the diameter of a circle. We know seconds has a range $$[0, 59]$$, so it's just a matter of choosing the smallest and largest values for the diameter:
+It's also very useful to use the ```map()``` function when drawing time. In this example we map the seconds that have passed in the current minute of time to the diameter of a circle. We know seconds has a range $$[0, 59]$$, so it's just a matter of choosing the smallest and largest values for the diameter:
 
 {% include p5-editor.html id="p84wngLLR" %}
 
