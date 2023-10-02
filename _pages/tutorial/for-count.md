@@ -113,7 +113,7 @@ The spacing and sizing looks good. We just have to fix the color. We want black 
 
 {% include p5-editor.html id="gQ9D2frvM" %}
 
-Now we just have to nest some ```for()``` loops to get all of our rows, and we'll be set:
+Now we just have to nest some ```for()``` loops to get all of our rows, and we'll be done:
 
 {% include p5-editor.html id="F0jEms0uu" %}
 
@@ -149,7 +149,7 @@ And in JavaScript ```if(col % 2 == row % 2)``` will check if the "evenness" of t
 Now, we can even think about more complicated tile patterns, like this one:
 ![](https://i.pinimg.com/564x/0c/90/2e/0c902e36c586665f45c57d4ccdd414dd.jpg)
 
-It's made up of a single composite shape, but depending on which column or row it's in, it gets rotated $$90^\circ$$, $$180^\circ$$, $$270^\circ$$.
+It's made up of a single composite shape, but depending on which column or row it's in, it gets rotated $$90^\circ$$, $$180^\circ$$ or $$270^\circ$$.
 
 Without worrying too much about the implementation details, let's say we have a function called ```zig()``` that draws the shape based on $$4$$ parameters: x location, y location, width and angle of rotation (in degrees):
 
@@ -159,7 +159,7 @@ We can just use that in our previous chessboard sketch and instead of alternatin
 
 {% include p5-editor.html id="iqWU_6Mxb" %}
 
-That is cool, and we can experiment with the angles in this version, but it only uses $$2$$ variations, where if we use rotations we can get $$4$$ different variations of the pattern. We can try something like this, that rotates depending on the row and column:
+That is cool, and we can experiment with the angles in this version, but it only uses $$2$$ out of the $$4$$ different variations of the pattern. We can try something like this, that rotates depending on different row and column even/odd combinations:
 ```
 if (col is even && row is even) {
   angle = 0;
@@ -173,4 +173,3 @@ if (col is even && row is even) {
 ```
 
 {% include p5-editor.html id="WXTIQraE-" %}
-
