@@ -1,7 +1,5 @@
 ---
 title: Cycles
-week: 4
-order: 3
 ---
 
 <h2 class="week-title">{{ page.title }}</h2>

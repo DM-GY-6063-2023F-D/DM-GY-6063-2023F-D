@@ -1,7 +1,5 @@
 ---
 title: Map
-week: 4
-order: 2
 ---
 
 <h2 class="week-title">{{ page.title }}</h2>

@@ -1,0 +1,14 @@
+{% assign materials = site.pages | where_exp: "p", "p.url contains 'week/'" %}
+
+<div class="assignment-list-container">
+  {% for week in materials %}
+    {% if week.tutorials.size > 0 %}
+      <h3>Week {{ week.slug }}</h3>
+      <ul>
+        {% for tut in week.tutorials %}
+          <li><a href="{{ tut.url }}">{{ tut.title }}</a></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+</div>

@@ -1,7 +1,5 @@
 ---
 title: Sine and Cosine
-week: 4
-order: 4
 ---
 
 <h2 class="week-title">{{ page.title }}</h2>

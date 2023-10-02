@@ -1,7 +1,5 @@
 ---
 title: Random Lottery
-week: 3
-order: 3
 ---
 
 <h2 class="week-title">{{ page.title }}</h2>
