@@ -286,16 +286,18 @@ h3.assignment-title {
 .p5js-block-wrapper {
   .p5js-editor-wrapper {
     --p5-editor-height: 600px;
-    --p5-editor-offset: -45px;
+    --p5-editor-y-offset: -45px;
+    --p5-editor-x-offset: -15px;
 
     overflow-y: hidden;
     position: relative;
     width: calc(100% + 100px);
-    height: calc(var(--p5-editor-height) + var(--p5-editor-offset));
+    height: calc(var(--p5-editor-height) + var(--p5-editor-y-offset));
 
     .p5js-editor {
       position: absolute;
-      top: var(--p5-editor-offset);
+      top: var(--p5-editor-y-offset);
+      left: var(--p5-editor-x-offset);
       width: 100%;
       height: var(--p5-editor-height);
       border: 0;
