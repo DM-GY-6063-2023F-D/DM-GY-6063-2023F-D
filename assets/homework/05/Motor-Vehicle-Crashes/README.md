@@ -2,7 +2,7 @@
 
 The Motor Vehicle Collisions crash table contains details on crash events. Each data point represents a crash event. The Motor Vehicle Collisions data tables contain information from all police reported motor vehicle collisions in NYC. The police report (MV104-AN) is required to be filled out for collisions where someone is injured or killed, or where there is at least $1000 worth of damage.
 
-#### Number of samples: 87,876
+#### Number of samples: 68,796
 
 ### Field descriptions:
 
