@@ -2,9 +2,9 @@
 
 Dataset related to air quality information in Beijing.
 
-## Number of samples: 41,757
+#### Number of samples: 41,757
 
-## Field descriptions:
+### Field descriptions:
 
 - No: Sample number 
 - year: Year of data in this sample
@@ -20,8 +20,7 @@ Dataset related to air quality information in Beijing.
 - Is: Cumulated hours of snow
 - Ir: Cumulated hours of rain
 
-## Sources:
+### Sources:
 
-[https://rstudio-pubs-static.s3.amazonaws.com/278745_60156813ccd2466ea4625725dcdf7cdd.html](https://rstudio-pubs-static.s3.amazonaws.com/278745_60156813ccd2466ea4625725dcdf7cdd.html)
-[https://creative-coding.decontextualize.com/csv-files/](https://creative-coding.decontextualize.com/csv-files/)
-
+- [https://rstudio-pubs-static.s3.amazonaws.com/278745_60156813ccd2466ea4625725dcdf7cdd.html](https://rstudio-pubs-static.s3.amazonaws.com/278745_60156813ccd2466ea4625725dcdf7cdd.html)
+- [https://creative-coding.decontextualize.com/csv-files/](https://creative-coding.decontextualize.com/csv-files/)

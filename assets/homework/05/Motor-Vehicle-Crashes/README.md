@@ -2,9 +2,9 @@
 
 The Motor Vehicle Collisions crash table contains details on crash events. Each data point represents a crash event. The Motor Vehicle Collisions data tables contain information from all police reported motor vehicle collisions in NYC. The police report (MV104-AN) is required to be filled out for collisions where someone is injured or killed, or where there is at least $1000 worth of damage.
 
-## Number of samples: 87,876
+#### Number of samples: 87,876
 
-## Field descriptions:
+### Field descriptions:
 
 - CRASH DATE: Occurrence date of collision
 - CRASH TIME: Occurrence time of collision
@@ -28,6 +28,6 @@ The Motor Vehicle Collisions crash table contains details on crash events. Each 
 - VEHICLE TYPE CODE 1: Type of vehicle based on category (ATV, bicycle, car/suv, ebike, escooter, truck/bus, motorcycle, other)
 - VEHICLE TYPE CODE 2: Type of vehicle based on category (ATV, bicycle, car/suv, ebike, escooter, truck/bus, motorcycle, other)
 
-## Sources:
+### Sources:
 
-[https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95)
+- [https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95)

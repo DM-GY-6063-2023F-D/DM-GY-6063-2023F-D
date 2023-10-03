@@ -2,9 +2,9 @@
 
 Daily price data for indexes tracking stock exchanges from all over the world (United States, China, Canada, Germany, Japan, and more). The data was all collected from Yahoo Finance, which had several decades of data available for most exchanges.
 
-## Number of samples: 66,028
+#### Number of samples: 66,028
 
-## Field descriptions:
+### Field descriptions:
 
 - Index: Ticker Symbol for Market Indexes
 - Date: Date of Observation
@@ -16,7 +16,6 @@ Daily price data for indexes tracking stock exchanges from all over the world (U
 - Exchange: Name of the Market Index
 - Currency: Currency the Market Index
 
-## Sources:
+### Sources:
 
-[https://www.kaggle.com/datasets/mattiuzc/stock-exchange-data](https://www.kaggle.com/datasets/mattiuzc/stock-exchange-data)
-
+- [https://www.kaggle.com/datasets/mattiuzc/stock-exchange-data](https://www.kaggle.com/datasets/mattiuzc/stock-exchange-data)
