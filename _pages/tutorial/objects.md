@@ -42,7 +42,7 @@ But it's nearly impossible to redefine the order in which we draw the drops beca
 
 Once an object that we're trying to represent starts to have many different parameters, we can take advantage of another JavaScript data structure, called an Object.
 
-JavaScript objects are kind of similar to arrays, in the sense that they help keep related values together using a single variable. For example, for our drops, we could declare a "drop" objects like this:
+JavaScript objects are kind of similar to arrays, in the sense that they help keep related values together using a single variable. For example, for our drops, we could declare a "drop" objects like this, where data is organized into key-value pairs:
 ```
 let drop = {
   x: random(width),
@@ -54,7 +54,7 @@ let drop = {
 };
 ```
 
-And just like arrays have a special syntax for accessing their members by index, objects have a special syntax for accessing members by the name of their properties. So, if we want to get the x position of our drop we can use: ```drop.xPos```. Similarly, the velocity would be: ```drop.yVel```.
+And just like arrays have a special syntax for accessing their members by index, objects have a special syntax for accessing members by the name of their properties. So, if we want to get the x position of our drop we can use: ```drop.xPos```. Similarly, the velocity would be: ```drop.yVel```. It's almost as if our ```drop``` variable has a set of internal variables that belong to it.
 
 Now we can combine arrays and objects and create an empty array to hold our drop objects:
 ```
