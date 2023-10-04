@@ -22,7 +22,15 @@ We say ```bgColorIndex``` is a global variable because it's declared outside any
 
 ---
 
-Let's take a look at another example, where we keep track of more than one value from the user:
+Let's extend the previous example: instead of keeping track of a color index we'll use a variable to keep track of mouse clicks and then select a color and shape based on that value:
+
+{% include p5-editor.html id="RiDDLNT3L" %}
+
+We now have $$7$$ colors to cycle through and $$2$$ shapes, but if we keep track of the number of clicks and use the modulo operator (%) we can easily cycle through both shape and color options using only one state variable.
+
+---
+
+Now, let's take a look at an example where we keep track of more than one value from the user:
 
 {% include p5-editor.html id="hld-ujC__" %}
 
