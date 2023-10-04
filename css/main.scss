@@ -21,6 +21,7 @@ body {
   font-family: Raleway;
   font-size: 17px;
   line-height: 1.8;
+  text-rendering: optimizeLegibility;
   color: var(--text-color);
 
   @media screen and (max-width: $mobile-max) {
@@ -82,7 +83,7 @@ th {
   top: 0;
   padding-left: 0.75rem;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 
   @media screen and (max-width: $mobile-max) {
     min-width: 100%;
