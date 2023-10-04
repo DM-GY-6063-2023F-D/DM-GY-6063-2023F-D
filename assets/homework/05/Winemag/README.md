@@ -1,4 +1,4 @@
-## Wine Reviews
+## Wine Information
 
 #### Number of samples: 7,728
 

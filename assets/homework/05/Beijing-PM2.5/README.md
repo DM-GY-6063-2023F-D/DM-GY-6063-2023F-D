@@ -1,24 +1,24 @@
 ## Beijing PM2.5 Dataset
 
-Dataset related to air quality information in Beijing.
+Dataset of Beijing air quality measurements.
 
 #### Number of samples: 41,757
 
 ### Field descriptions:
 
-- No: Sample number 
-- year: Year of data in this sample
+- No: sample number
+- year: year of data in this sample
 - month: month of data in this sample
 - day: day of data in this sample
 - hour: hour of data in this sample
 - pm2.5: PM2.5 concentration (ug/m^3)
-- DEWP: Dew Point (ºC)
-- TEMP: Temperature (ºC)
-- PRES: Pressure (hPa)
-- cbwd: Combined wind direction
-- Iws: Cumulated wind speed (m/s)
-- Is: Cumulated hours of snow
-- Ir: Cumulated hours of rain
+- DEWP: dew Point (ºC)
+- TEMP: temperature (ºC)
+- PRES: pressure (hPa)
+- cbwd: combined wind direction
+- Iws: cumulated wind speed (m/s)
+- Is: cumulated hours of snow
+- Ir: cumulated hours of rain
 
 ### Sources:
 
