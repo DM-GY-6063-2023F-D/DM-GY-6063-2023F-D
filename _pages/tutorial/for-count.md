@@ -26,7 +26,7 @@ Or to do some math on sequences of numbers, like finding the sum of all numbers 
 
 {% include p5-editor.html id="g3Zstv9-4" %}
 
-Or, to iterate through a collection of items, in an [array]({{ site.baseurl }}/tutorial/array/):
+Or, to iterate through a collection of items, in an [array]({{ site.baseurl }}/tutorial/arrays-0/):
 
 {% include p5-editor.html id="GaVnWe0bi" %}
 

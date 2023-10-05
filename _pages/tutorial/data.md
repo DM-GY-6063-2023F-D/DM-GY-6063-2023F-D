@@ -4,7 +4,7 @@ title: Loading Data (JSON/CSV)
 
 <h2 class="week-title">{{ page.title }}</h2>
 
-Now that we know about [arrays]({{ site.baseurl }}/tutorial/arrays/) and [objects]({{ site.baseurl }}/tutorial/objects/) for organizing our data, and also how to use ```for()``` loops to create, store and process values in those structures, we can now look at ways of getting and processing data that has been previously created and stored in files locally or online.
+Now that we know about [arrays]({{ site.baseurl }}/tutorial/arrays-0/) and [objects]({{ site.baseurl }}/tutorial/objects/) for organizing our data, and also how to use ```for()``` loops to create, store and process values in those structures, we can now look at ways of getting and processing data that has been previously created and stored in files locally or online.
 
 In order to do that we'll make use of a file format called [JSON](https://en.wikipedia.org/wiki/JSON), or, JavaScript Object Notation. *JSON is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects*. If we take a look at a JSON file we'll see that it's structured exactly like a JavaScript object, with data organized into key-value pairs:
 ```json

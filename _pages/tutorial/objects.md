@@ -4,7 +4,7 @@ title: Objects
 
 <h2 class="week-title">{{ page.title }}</h2>
 
-Let's start with our rain sketch from the [arrays tutorial]({{ site.baseurl }}/tutorial/arrays/):
+Let's start with our rain sketch from the [arrays tutorial]({{ site.baseurl }}/tutorial/arrays-0/):
 
 {% include p5-editor.html id="xZAGjgz8X" %}
 
