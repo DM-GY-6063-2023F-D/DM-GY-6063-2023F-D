@@ -57,7 +57,7 @@ First, we define a function called ```drawCircle()```. This function takes one a
 
 This function is special in many ways: first, it's one of those builtin functions that come with a JavaScript array. Besides that, it's also special because it's a function that takes a function as an argument 🤯. The way to think about this is to imagine we are asking our array to run this function on every one of its elements, using the elements as arguments.
 
-This is some really advanced array'ing ! And the code becomes a little more concise and arguably more "semantic" (the commands we are using describe the meaning of what we want the computer to do). Instead of a generic ```for()``` loop with a counter variable, a consitional statement and an update, we are now telling the array "for each one of your elements, do this: drawCircle()".
+This is some really advanced array'ing ! And the code becomes a little more concise and arguably more "semantic" (the commands we are using describe the meaning of what we want the computer to do). Instead of a generic ```for()``` loop with a counter variable, a conditional statement and an update, we are now telling the array "for each one of your elements, do this: drawCircle()".
 
 ---
 Once we know how to pass functions to functions we can really start doing some fancier processing of the data in our arrays, like filtering our array by values inside the elements:
