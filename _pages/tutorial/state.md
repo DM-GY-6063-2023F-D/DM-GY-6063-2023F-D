@@ -26,7 +26,7 @@ Let's extend the previous example: instead of keeping track of a color index we'
 
 {% include p5-editor.html id="RiDDLNT3L" %}
 
-We now have $$7$$ colors to cycle through and $$2$$ shapes, but if we keep track of the number of clicks and use the modulo operator (%) we can easily cycle through both shape and color options using only one state variable.
+We now have $$7$$ colors to cycle through and $$2$$ shapes, but if we keep track of the number of clicks and use the modulo operator ($$\%$$) we can easily cycle through both shape and color options using only one state variable.
 
 ---
 
