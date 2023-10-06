@@ -58,3 +58,16 @@ filteredCircles.forEach(drawCircle);
 
 Try to write your own filter function. Maybe it removes elements that are too close to the center of the canvas... or all the small circles...
 
+We can also sort our array by one of the properties of the circles. This is a little more advanced, but since it's such a common operation it's worth to take a look and even if it's not entirely clear now, we can always come back to this tutorial when we need to do something like this.
+
+If our array elements are all numbers or words, ```sort()``` just works without any arguments, but since what we are trying to sort here are circle objects, JavaScript doesn't really know how to handle those (should it sort them by ```x``` values? by ```y```? by ```d```?).
+
+Let's sort our array by circle diameter. If we look at the documentation for [```sort()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) it says we can pass a compare function to ```sort()``` that defines the sort order. This compare function takes $$2$$ arguments ```A``` and ```B``` and the return value should be a number whose sign indicates the relative order of the two elements: negative if ```A``` is less than ```B```, positive if ```A``` is greater than ```B``` and zero if they are equal.
+
+So something like this should work to sort our objects using their x positions:
+```js
+function orderByX(circleA, circleB) {
+  return circleA.x - circleB.x;
+}
+```
+
