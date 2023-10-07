@@ -98,7 +98,11 @@ checkOverlap(otherCircle) {
 
 It first has to detect and avoid self-comparisons. Then, it calculates the distance between the centers of the two circles and returns ```true``` if this distance is less than the sum of their radius:
 
-+++IMAGE+++
+<div class="scaled-images s75">
+  <img src = "{{ site.baseurl }}/assets/tutorials/classes-00.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/classes-01.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/classes-02.jpg"/>
+</div>
 
 And now we have overlap detection !
 

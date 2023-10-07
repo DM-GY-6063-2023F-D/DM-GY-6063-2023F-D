@@ -274,6 +274,22 @@ h3.assignment-title {
   }
 }
 
+.scaled-images {
+  width: 100%;
+  margin: 0 auto;
+
+  img {
+    display: block;
+    margin: 0 auto 1rem;
+  }
+
+  &.s75 {
+    img {
+      width: 75%;
+    }
+  }
+}
+
 .video-container {
   height: 200px;
   margin: 0 auto;
