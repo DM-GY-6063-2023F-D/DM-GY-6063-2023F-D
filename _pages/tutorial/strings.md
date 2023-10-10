@@ -122,6 +122,31 @@ chosenIndex = floor(random(0, words.length));
 {% include p5-editor.html id="nJhHNHikk" %}
 
 ---
+We can specify the font to use by passing a string to ```textFont()``` with the font name, but this only works if that font is installed on the computer where the sketch is running, or if we use generic font family names (```serif```, ```sans-serif```, ```monospace```).
+
+If we want to use very special, custom fonts, we have to tell p5js to load the font file first, and then pass it to ```textFont()```.
+
+The first step is to find or create a font file. For free and open-source fonts, check out the [League of Moveable Type](https://www.theleagueofmoveabletype.com/) and [Open Font Library](https://fontlibrary.org/).
+
+Once we have a font file (.otf or .ttf), we can place it next to our ```sketch.js``` file and load it using [```loadFont()```](https://p5js.org/reference/#/p5/loadFont) in the ```preload()``` part of our sketch.
+
+Then we can use it to draw our texts:
+
+{% include p5-editor.html id="pWdH1yVQU" %}
+
+So, in p5js, not only are our strings instances of a class, but we also have a [Font](https://p5js.org/reference/#/p5.Font) class with its own special functions for manipulating text. One of these functions, [```textBounds()```](https://p5js.org/reference/#/p5.Font/textBounds) returns a bounding box for the given text:
+
+{% include p5-editor.html id="NAwjqO-D3" %}
+
+The box that is returned is an object with $$4$$ parameters: $$x$$, $$y$$, $$w$$, $$h$$ for x and y location, width and height.
+
+Another special function in the Font class is [```textToPoints()```](https://p5js.org/reference/#/p5.Font/textToPoints). This function returns an array of points that follow the specified text. Once we have those points, we can make small modifications to their values before using them to create a shape:
+
+{% include p5-editor.html id="t8j_p9I51" %}
+
+In this sketch we are adding a small random number to each point's x and y locations. The range of the random value is determined by the y position of the mouse.
+
+---
 One last thing about working with texts and strings.
 
 Just like there are ```loadJSON()``` and ```loadTable()``` functions, p5js also has a [```loadStrings()```](https://p5js.org/reference/#/p5/loadStrings) function that can be used to read a text file (from our computer or the internet), and split it into lines.

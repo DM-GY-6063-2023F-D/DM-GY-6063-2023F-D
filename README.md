@@ -143,7 +143,6 @@ Letter grades for the entire course will be assigned as follows:
 
 ### Week 05 (2023/10/04)
 - Review Assignment & Reading
-- Some notes on debugging
 - p5js: Arrays and dictionaries, data, CSV and JSON
 - Assignment: Data visualization
 - Reading: W. E. B. Du Bois's Data Portraits (Intro and Plates) by Britt Rusert and Whitney Battle-Baptiste
@@ -158,13 +157,14 @@ Letter grades for the entire course will be assigned as follows:
 
 ### Week 07 (2023/10/18)
 - Review Assignment & Reading
+- Some notes on debugging
 - p5js: Images, videos, audio
 - Assignment: Midterm project
 
 ### Week 08 (2023/10/25)
 - Midterm Project Presentations
 - p5js: Libraries: audio and video, camera and microphone
-- Assignment: Audio/video distortion using external library
+- Assignment: Audio/video using external library
 - Reading: Nonhuman Photography (Intro) by Joanna Zylinska
 
 ### Week 9 (2023/11/01)
