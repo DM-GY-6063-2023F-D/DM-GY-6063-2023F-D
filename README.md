@@ -158,7 +158,7 @@ Letter grades for the entire course will be assigned as follows:
 ### Week 07 (2023/10/18)
 - Review Assignment & Reading
 - Some notes on debugging
-- p5js: Images, videos, audio
+- p5js: More objects, images and video
 - Assignment: Midterm project
 
 ### Week 08 (2023/10/25)
