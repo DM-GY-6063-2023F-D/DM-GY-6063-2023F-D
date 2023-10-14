@@ -158,18 +158,18 @@ Letter grades for the entire course will be assigned as follows:
 ### Week 07 (2023/10/18)
 - Review Assignment & Reading
 - Some notes on debugging
-- p5js: More objects, images and video
+- p5js: More objects, images and pixels
 - Assignment: Midterm project
 
 ### Week 08 (2023/10/25)
 - Midterm Project Presentations
-- p5js: Libraries: audio and video, camera and microphone
+- p5js: The DOM and audio
 - Assignment: Audio/video using external library
 - Reading: Nonhuman Photography (Intro) by Joanna Zylinska
 
 ### Week 9 (2023/11/01)
 - Review Assignment & Reading
-- p5js: The DOM, ML and image and audio processing
+- p5js: ML and image and audio processing
 - Assignment: Using the camera as an input device
 - Reading: The Atlas of AI (Intro) by Kate Crawford / [New Extractivism](https://extractivism.online/) by Vladan Joler
 
