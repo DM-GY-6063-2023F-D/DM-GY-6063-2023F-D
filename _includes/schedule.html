@@ -2,7 +2,7 @@
 {% assign sch = "schedule" %}
 {% assign currentWeek = 100 %}
 
-{% for p in weeks limit:6 %}
+{% for p in weeks limit:7 %}
   {% assign s = "" %}
   {% if forloop.index == currentWeek %}
     {% assign s = "show" %}
