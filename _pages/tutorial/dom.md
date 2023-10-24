@@ -60,7 +60,15 @@ The more correct way of doing this in 2023 is using an ```<input>``` element of 
 ---
 Let's now use some html elements in our sketch to create a simple sound player.
 
-First, let's load an audio file using the [```loadSound()```](https://p5js.org/reference/#/p5/loadSound) function and test it. This is similar to how we have loaded images, text files, datasets, etc using the ```preload()``` function.
+NOTE:  
+make sure to include the [p5.sound library](https://p5js.org/reference/#/libraries/p5.sound) in your project's ```index.html``` file after the p5js file, like this:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/addons/p5.sound.js"></script>
+```
+
+Now, let's load an audio file using the [```loadSound()```](https://p5js.org/reference/#/p5/loadSound) function and test it. This is similar to how we have loaded images, text files, datasets, etc using the ```preload()``` function.
 
 The ```loadSound()``` function returns a [```SoundFile```](https://p5js.org/reference/#/p5.SoundFile) object, and we can use its [```play()```](https://p5js.org/reference/#/p5.SoundFile/play) function to play the song whenever we click the mouse:
 https://editor.p5js.org/thiagohersan/sketches/aLnj1hrsv
