@@ -6,19 +6,19 @@ Dataset of Beijing air quality measurements.
 
 ### Field descriptions:
 
-- No: sample number
+- id: sample number
 - year: year of data in this sample
 - month: month of data in this sample
 - day: day of data in this sample
 - hour: hour of data in this sample
 - pm2.5: PM2.5 concentration (ug/m^3)
-- DEWP: dew Point (ºC)
-- TEMP: temperature (ºC)
-- PRES: pressure (hPa)
-- cbwd: combined wind direction
-- Iws: cumulated wind speed (m/s)
-- Is: cumulated hours of snow
-- Ir: cumulated hours of rain
+- dew_point: dew Point (ºC)
+- temperature: temperature (ºC)
+- pressure: pressure (hPa)
+- wind_direction: combined wind direction
+- wind_speed: cumulated wind speed (m/s)
+- hours_snow: cumulated hours of snow
+- hours_rain: cumulated hours of rain
 
 ### Sources:
 
