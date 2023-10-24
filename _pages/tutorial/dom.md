@@ -8,6 +8,10 @@ In this tutorial we are going to look at p5js's functions to access and manipula
 
 First, The DOM (Document Object Model) is just the official way of referring to the collection of HTML elements that make up a webpage. These are the ```<p>```, ```<img>``` and ```<a>``` elements for holding text, images and links, and also some more complex elements, like ```<canvas>``` elements, where our p5js sketch gets drawn or ```<video>``` and ```<audio>``` elements for displaying different kinds of media on a webpage.
 
+<div class="scaled-images s75">
+  <img src = "{{ site.baseurl }}/assets/tutorials/dom-00.jpg"/>
+</div>
+
 Usually, these elements and their content are defined in the html file for the webpage, and any special behavior is specified using a separate JavaScript file. We might have a button defined in our html file and then a JavaScript file would specify what happens when that button is clicked.
 
 Somewhere in the html we could have something like this:
@@ -75,7 +79,10 @@ The other way is to check first if the object is already playing the file and on
 Now that we know how to play a sound file, let's organize our sound player.
 
 We are going to have $$3$$ buttons: skip to beginning, play/pause and stop. Our song also has $$3$$ states it can be in: ```playing```, ```paused```, and ```stopped```. The skip to beginning button always resets the song's playing position, but it doesn't change what state it's in. The other buttons make the song change states between ```playing```, ```paused``` and ```stopped```. This state diagram specifies these changes:
----IMAGES----
+
+<div class="scaled-images s75">
+  <img src = "{{ site.baseurl }}/assets/tutorials/dom-01.jpg"/>
+</div>
 
 Let's write some pseudo-code first:
 {% include p5-editor.html id="v5Pbvv6Z2" %}
@@ -134,4 +141,4 @@ This value then goes through ```floor()``` and ```constrain()``` in order to gua
 After that we use it to index into our arrays of diameters and draw an ellipse whose size is proportional to the volume of the current sample being played:
 {% include p5-editor.html id="LqkTuPJ0j" %}
 
-Try it out on both tracks, and remember that sometimes we have to adjust the ```DELAY``` value to get better synchronization. We could also add a slider to control this value...
+Try it out on both tracks, and remember to adjust the ```DELAY``` value to get better synchronization if using bluetooth speakers/earbuds or if the browser is overloaded.
