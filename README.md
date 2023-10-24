@@ -167,7 +167,7 @@ Letter grades for the entire course will be assigned as follows:
 - Assignment: Audio/video using external library
 - Reading: Nonhuman Photography (Intro) by Joanna Zylinska
 
-### Week 9 (2023/11/01)
+### Week 09 (2023/11/01)
 - Review Assignment & Reading
 - p5js: ML and image and audio processing
 - Assignment: Using the camera as an input device

@@ -20,7 +20,6 @@ These can be used to derive formulas for translating between [Cartesian](https:/
 
 Cartesian coordinates are what we use to specify points on a plane (and pixels on a screen) using two numbers that represent distances in perpendicular directions. Polar coordinates specify points on a plane using a distance and an angle.
 
-
 Just like we can use ```for()``` loops to iterate over $$2$$ cartesian coordinates $$(x, y)$$ and create patterns in a grid, we can also iterate over the $$2$$ variables in a polar coordinate system to create patterns:
 
 {% include p5-editor.html id="X3zrbKW8G" %}
