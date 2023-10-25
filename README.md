@@ -163,8 +163,8 @@ Letter grades for the entire course will be assigned as follows:
 
 ### Week 08 (2023/10/25)
 - Midterm Project Presentations
-- p5js: The DOM and audio
-- Assignment: Audio/video using external library
+- p5js: The DOM and audio files
+- Assignment: Image manipulation and sound visualization
 - Reading: Nonhuman Photography (Intro) by Joanna Zylinska
 
 ### Week 09 (2023/11/01)
