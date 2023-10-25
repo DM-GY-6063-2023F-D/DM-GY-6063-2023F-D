@@ -24,7 +24,7 @@ What happens if we click the mouse multiple times? It sounds like the ```song```
 
 There are two ways we can fix this.
 
-First, we can specify the file's [```playMode()```](https://p5js.org/reference/#/p5.SoundFile/playMode) to be either ```restart``` or ```untilDone```, and that will make it only play one version of the file, either by starting the song over or not doing anything until it plays until the end:
+First, we can specify the file's [```playMode()```](https://p5js.org/reference/#/p5.SoundFile/playMode) to be either ```restart``` or ```untilDone```, and that will make it only play one instance of the file, either by starting the song over or not doing anything until it plays until the end:
 {% include p5-editor.html id="yD2bhgfPO" %}
 
 The other way is to check first if the object is already playing the file and only call ```play()``` if it's not. We can also use [```isPlaying()```](https://p5js.org/reference/#/p5.SoundFile/isPlaying) to change the background color as an indication of the play state:
