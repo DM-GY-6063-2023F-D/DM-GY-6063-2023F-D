@@ -35,6 +35,11 @@ Nowadays it's become more common to use frameworks like [Angular](https://angula
 
 And even though p5js is not the best tool to create these kinds of websites and interactions, it provides us with a [bunch of functions](https://p5js.org/reference/#group-DOM) to create and manipulate html elements on the page.
 
+One important thing to note is that, the code for our sketch gets drawn in a ```<canvas>``` element that is part of our html page. All of the elements that we add with the p5js DOM functions will get added to our html page, and *NOT* our canvas. They're two separate, but connected worlds. And even though we can make DOM elements show up on top of our canvas, they're not *in* our canvas.
+
+Keep that in mind as we go through these examples and start using DOM elements in our sketches.
+
+---
 We can add links to our sketch:
 {% include p5-editor.html id="hwBhX9KFO" %}
 
