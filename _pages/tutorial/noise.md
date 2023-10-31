@@ -161,11 +161,31 @@ Or, we can redraw the map every frame using this  ```frameCount``` offset, but s
 {% include p5-editor.html id="oej1vUZvF" %}
 
 
-What we can do is pass a time-based value to the third parameter of the ```noise()``` function to see how our 2D noise map changes over time:
+What we can do is pass a time-based value to the third parameter of the ```noise()``` function to make our 2D noise map change over time:
 
 {% include p5-editor.html id="LzQrAAj7k" %}
 
+---
+Noise can be used to animate elements/characters/particles. This moves an ellipse in a way that makes it look like a balloon in the wind:
 
-{%comment%}
-{% include p5-editor.html id="BWiFcetz_" %}
-{%endcomment%}
+{% include p5-editor.html id="IgUqibTpp" %}
+
+The part of the code that calculates the velocity components uses something like this:
+```js
+let nx = noise(pos.x, pos.y, frameCount);
+let ny = noise(frameCount, pos.x, pos.y);
+```
+
+In addition to ```frameCount```, we use the $$x$$ and $$y$$ positions for calculating the new velocity components, but when we call ```noise()``` the second time the two argument types are swapped!
+
+The reason is that, if we had this:
+```js
+let nx = noise(pos.x, pos.y, frameCount);
+let ny = noise(pos.x, pos.y, frameCount);
+```
+
+both calls to the ```noise()``` function would return the same value for ```nx``` and ```ny``` and our ellipse would be stuck moving in a diagonal. So we swap the parameter order to avoid this situation.
+
+If we modify the above sketch to draw many points over time, we can get some organic looking motion that looks like water flow or currents:
+
+{% include p5-editor.html id="az2cdACbO" %}
