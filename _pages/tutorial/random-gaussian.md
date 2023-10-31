@@ -26,7 +26,7 @@ We can look at this in another way. Let's draw random whole numbers in the range
 
 This is like rolling a 12-sided die many times and counting how many times each choice is rolled. As we keep clicking the mouse the sum of occurrences of each whole number between $$0$$ and $$12$$ approaches the same value.
 
-Yet another wey to look at ```random()```: if we use it to select x and y locations for drawing ellipses, eventually we will cover our whole canvas uniformly:
+Yet another wey to look at ```random()```: if we use it to select $$x$$ and $$y$$ locations for drawing ellipses, eventually we will cover our whole canvas uniformly:
 
 {% include p5-editor.html id="7JYBbGDl6" %}
 
@@ -71,17 +71,17 @@ Let's use it to select random whole numbers between $$0$$ and $$22$$, but with a
 
 The more we click, the closer this graph will get to the symmetric bell curve of a normal distribution.
 
-We can visualize our gaussian distributions in another way: let's use random gaussian numbers for selecting x and y positions for drawing ellipses.
+We can visualize our gaussian distributions in another way: let's use random gaussian numbers for selecting $$x$$ and $$y$$ positions for drawing ellipses.
 
 Since we want them to be centered on our canvas, we'll use mean values of $$\frac{width}{2}$$ and $$\frac{height}{2}$$. And if we want $$99.7\%$$ of the numbers selected to fall within our canvas, the standard deviations should be $$\frac{width}{6}$$ and $$\frac{height}{6}$$:
 
 {% include p5-editor.html id="ypoiTaX7S" %}
 
-The vertical lines show standard deviations in the x direction. And we can see that the density of ellipses decreases as we move away from the mean in the center of the canvas.
+The vertical lines show standard deviations in the $$x$$ direction. And we can see that the density of ellipses decreases as we move away from the mean in the center of the canvas.
 
 As we keep clicking, we can see that the middle two regions fill up quicker, because together they hold $$68\%$$ of the ellipses drawn. The next $$2$$ regions away from the mean hold about $$13.6\%$$ of the ellipses each, or $$27\%$$ collectively. And the $$2$$ furthest regions from the mean each hold $$2\%$$ of the ellipses drawn.
 
-We can see a similar situation for the distribution of y values:
+We can see a similar situation for the distribution of $$y$$ values:
 
 {% include p5-editor.html id="Zah6YLuaS" %}
 
@@ -104,7 +104,7 @@ Let's revisit HW03B, but now implement it using both ```random()``` and ```rando
 
 {% include p5-editor.html id="UOREFtLT1" %}
 
-With more time, both versions could be adjusted to look similar, but the diameter and the small variations in x and y are easier to adjust while avoiding overlaps using the gaussian distribution because we know where most of the values are gonna be.
+With more time, both versions could be adjusted to look similar, but the diameter and the small variations in $$x$$ and $$y$$ are easier to adjust while avoiding overlaps using the gaussian distribution because we know where most of the values are gonna be.
 
 We can also use ```randomGaussian()``` to pick variations around a chosen color:
 
