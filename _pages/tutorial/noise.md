@@ -189,3 +189,7 @@ both calls to the ```noise()``` function would return the same value for ```nx``
 If we modify the above sketch to draw many points over time, we can get some organic looking motion that looks like water flow or currents:
 
 {% include p5-editor.html id="az2cdACbO" %}
+
+And if we remove the time parameter from the ```noise()``` calls, don't clear the background, and restart the points only when they slow down, we get some drawings that could look like hair or leafs:
+
+{% include p5-editor.html id="Hpj6kD5JP" %}
