@@ -6,7 +6,12 @@
       <h3>Week {{ week.slug }}</h3>
       <ul>
         {% for tut in week.tutorials %}
-          <li><a href="{{ tut.url }}">{{ tut.title }}</a></li>
+          <li>
+            <a href="{{ tut.url }}">{{ tut.title }}</a>
+            {% if tut.code %}
+              &nbsp;&nbsp; / <a href="{{ tut.code }}">code</a>
+            {% endif %}
+          </li>
         {% endfor %}
       </ul>
     {% endif %}
