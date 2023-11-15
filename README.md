@@ -176,15 +176,15 @@ Letter grades for the entire course will be assigned as follows:
 ### Week 10 (2023/11/08)
 - Review Assignment & Reading
 - Working with electricity
-- Analog vs Digital
-- Arduino: Setup, wires, inputs and outputs, analog and digital
-- Assignment: Turning actions into lights
+- Arduino: Setup, wires, outputs, analog and digital
+- Assignment: Visualizing time (again)
 - Reading: Race After Technology (Intro) by Ruha Benjamin
 
 ### Week 11 (2023/11/15)
 - Review Assignment & Reading
 - Finite State Machines
-- Arduino: More analog I/O, serial communication
+- Analog vs Digital
+- Arduino: More I/O, serial port
 - Assignment: Password machine
 - Reading: Code and Clay, Data and Dirt (Intro) by Shannon Mattern
 - Final Project: Description
@@ -192,17 +192,19 @@ Letter grades for the entire course will be assigned as follows:
 ### Week 12 (2023/11/29)
 - Review Assignment & Reading
 - Project Proposal Presentations
-- Arduino: WiFi and BLE
+- Arduino: Serial, WiFi and BLE communication
 - Assignment: Physical interfaces: controlling p5js with arduino
 - Reading: The Marvelous Clouds (Intro) by John Durham Peters
 - Reading: The Stack (Intro) by Benjamin H. Bratton / [Worlds In Figures](https://worldsinfigures.com/tutorial) by Evan Roth
 
 ### Week 13 (2023/12/06)
+- Guest Speaker
 - Review Assignment & Reading
 - Final Project: Workshop
 - Reading: The Question Concerning Technology in China (Intro) by Yuk Hui
 
 ### Week 14 (2023/12/13)
+- Guest Speaker
 - Discuss Reading
 - Final Project Progress Presentation
 - Assignment: Final Project
