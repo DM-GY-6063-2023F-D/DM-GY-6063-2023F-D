@@ -191,14 +191,12 @@ Letter grades for the entire course will be assigned as follows:
 
 ### Week 12 (2023/11/29)
 - Review Assignment & Reading
-- Project Proposal Presentations
-- Arduino: Serial, WiFi and BLE communication
+- Arduino: More Analog Input, and Serial, WiFi and BLE communication
 - Assignment: Physical interfaces: controlling p5js with arduino
 - Reading: The Marvelous Clouds (Intro) by John Durham Peters
 - Reading: The Stack (Intro) by Benjamin H. Bratton / [Worlds In Figures](https://worldsinfigures.com/tutorial) by Evan Roth
 
 ### Week 13 (2023/12/06)
-- Guest Speaker
 - Review Assignment & Reading
 - Final Project: Workshop
 - Reading: The Question Concerning Technology in China (Intro) by Yuk Hui
@@ -206,7 +204,7 @@ Letter grades for the entire course will be assigned as follows:
 ### Week 14 (2023/12/13)
 - Guest Speaker
 - Discuss Reading
-- Final Project Progress Presentation
+- Final Project: Progress Presentation
 - Assignment: Final Project
 
 ### Week 15 (2023/12/20)
