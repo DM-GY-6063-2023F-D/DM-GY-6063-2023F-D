@@ -193,8 +193,7 @@ Letter grades for the entire course will be assigned as follows:
 - Review Assignment & Reading
 - Arduino: More Analog Input, and Serial, WiFi and BLE communication
 - Assignment: Physical interfaces: controlling p5js with arduino
-- Reading: The Marvelous Clouds (Intro) by John Durham Peters
-- Reading: The Stack (Intro) by Benjamin H. Bratton / [Worlds In Figures](https://worldsinfigures.com/tutorial) by Evan Roth
+- Reading: The Marvelous Clouds (Intro) by John Durham Peters / [Worlds In Figures](https://worldsinfigures.com/tutorial) by Evan Roth
 
 ### Week 13 (2023/12/06)
 - Review Assignment & Reading
