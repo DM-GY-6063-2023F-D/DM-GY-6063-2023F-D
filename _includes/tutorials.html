@@ -9,7 +9,7 @@
           <li>
             <a href="{{ tut.url }}">{{ tut.title }}</a>
             {% if tut.code %}
-              &nbsp;&nbsp; / <a href="{{ tut.code }}">code</a>
+              (<a href="{{ tut.code }}">code</a>)
             {% endif %}
           </li>
         {% endfor %}
