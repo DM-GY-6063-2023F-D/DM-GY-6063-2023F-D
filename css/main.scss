@@ -300,29 +300,37 @@ h3.assignment-title {
   }
 }
 
-.p5js-block-wrapper {
-  .p5js-editor-wrapper {
-    --p5-editor-height: 600px;
-    --p5-editor-y-offset: -45px;
-    --p5-editor-x-offset: -15px;
+.editor-block-wrapper {
+  .p5-editor-wrapper {
+    --editor-height: 600px;
+    --editor-y-offset: -45px;
+    --editor-x-offset: -15px;
+  }
 
+  .arduino-editor-wrapper {
+    --editor-height: 600px;
+    --editor-y-offset: -100px;
+    --editor-x-offset: -10px;
+  }
+
+  .editor-wrapper {
     overflow-y: hidden;
     position: relative;
     width: calc(100% + 100px);
-    height: calc(var(--p5-editor-height) + var(--p5-editor-y-offset));
+    height: calc(var(--editor-height) + var(--editor-y-offset));
 
-    .p5js-editor {
+    .editor {
       position: absolute;
-      top: var(--p5-editor-y-offset);
-      left: var(--p5-editor-x-offset);
+      top: var(--editor-y-offset);
+      left: var(--editor-x-offset);
       width: 100%;
-      height: var(--p5-editor-height);
+      height: var(--editor-height);
       border: 0;
       display: block;
     }
   }
 
-  .p5js-editor-link {
+  .editor-link {
     display: block;
     font-size: 0.9rem;
   }
