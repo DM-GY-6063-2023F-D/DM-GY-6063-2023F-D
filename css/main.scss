@@ -279,6 +279,7 @@ h3.assignment-title {
   margin: 0 auto;
 
   img {
+    width: 100%;
     display: block;
     margin: 0 auto 1rem;
   }
@@ -286,6 +287,18 @@ h3.assignment-title {
   &.s75 {
     img {
       width: 75%;
+    }
+  }
+
+  &.s50 {
+    img {
+      width: 50%;
+    }
+  }
+
+  &.left {
+    img {
+      margin-left: 0;
     }
   }
 }
