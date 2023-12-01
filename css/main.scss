@@ -305,12 +305,30 @@ h3.assignment-title {
 
 .video-container {
   height: 200px;
-  margin: 0 auto;
+
   video {
     display: block;
     margin: 0 auto;
-    height: 100%;
   }
+
+  &.h200 {
+    height: 200px;
+    video {
+      height: 100%;
+    }
+  }
+
+  &.w100 {
+    width: 100%;
+    height: auto;
+    video {
+      width: 100%;
+    }
+  }
+}
+
+.audio-tutorial {
+  width: 100%;
 }
 
 .editor-block-wrapper {
