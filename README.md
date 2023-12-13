@@ -197,6 +197,7 @@ Letter grades for the entire course will be assigned as follows:
 
 ### Week 13 (2023/12/06)
 - Review Assignment & Reading
+- P5js sound library revisited
 - Final Project: Workshop
 - Reading: The Question Concerning Technology in China (Intro) by Yuk Hui
 
