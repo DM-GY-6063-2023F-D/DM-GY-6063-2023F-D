@@ -8,7 +8,7 @@ In this tutorial we are going to implement a door-knock detector using an Arduin
 
 A piezoelectric sensor is an electronic component made up of special materials that generate a charge based on changes in pressure, strain or force. The ones we have available in the lab look like this:
 <div class="scaled-images s50 left">
-  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock-00.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-00.jpg"/>
 </div>
 
 They have a positive and a negative lead, and can be connected to our Arduino and used to detect small (or big) vibrations on surfaces.
@@ -17,17 +17,17 @@ Sometimes they are used as microphones for picking up small vibrations on acoust
 
 We are going to wire it up like this:
 <div class="scaled-images">
-  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock-01.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-01.jpg"/>
 </div>
 
 Board view:
 <div class="scaled-images">
-  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock-02.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-02.jpg"/>
 </div>
 
 Picture:
 <div class="scaled-images">
-  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock-03.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-03.jpg"/>
 </div>
 
 There's a piezoelectric sensor in parallel with a 1 MΩ (Megaohm) resistor, connected to pins ```A0``` and ground.
@@ -42,8 +42,8 @@ Serial output showing signal activity on ```A0```:
 
 <div class="video-container w100">
   <video class="video" preload="auto" muted playsinline controls>
-    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-video-00.webm" type="video/webm">
-    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-video-00.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-video-00.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-video-00.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -51,8 +51,8 @@ We can also graph these values using a separate program:
 
 <div class="video-container w100">
   <video class="video" preload="auto" muted playsinline controls>
-    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-video-01.webm" type="video/webm">
-    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-video-01.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-video-01.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-video-01.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -82,8 +82,8 @@ We can test our circuit by printing the value at ```A0```, ```currentKnockValue`
 
 <div class="video-container w100">
   <video class="video" preload="auto" muted playsinline controls>
-    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-video-02.webm" type="video/webm">
-    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-video-02.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-video-02.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-video-02.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -95,12 +95,12 @@ If we look at the graphs from before, or at the serial monitor values, we'll see
 
 Graph of ```A0``` over time:
 <div class="scaled-images">
-  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock-04.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-04.jpg"/>
 </div>
 
 Serial monitor:
 <div class="scaled-images">
-  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock-05.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-05.jpg"/>
 </div>
 
 We can see that one knock makes the ```currentKnockValue``` variable transition from $$0$$ to $$1$$ a total of $$3$$ times and our count increases from $$20$$ to $$23$$ with just one actual knock.
@@ -121,7 +121,7 @@ And if we test it by knocking on the board, and by inspecting the serial monitor
 
 Serial monitor:
 <div class="scaled-images">
-  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock-06.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-06.jpg"/>
 </div>
 
 We can see that one knock makes the ```currentKnockValue``` variable transition from $$0$$ to $$1$$ a total of $$3$$ times, but now our count only increments by $$1$$, going from $$20$$ to $$21$$ with one actual knock.
@@ -130,8 +130,8 @@ We can see that in the serial monitor here:
 
 <div class="video-container w100">
   <video class="video" preload="auto" muted playsinline controls>
-    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-video-03.webm" type="video/webm">
-    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-video-03.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-video-03.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-video-03.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -151,8 +151,8 @@ If we look at some graphs, we can see that, while the peaks are smaller, they te
 
 <div class="video-container w100">
   <video class="video" preload="auto" muted playsinline controls>
-    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-video-04.webm" type="video/webm">
-    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-video-04.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-video-04.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-video-04.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -165,8 +165,8 @@ We can use the serial monitor again to check that we're only counting one knock 
 
 <div class="video-container w100">
   <video class="video" preload="auto" muted playsinline controls>
-    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-video-05.webm" type="video/webm">
-    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-video-05.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-video-05.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-video-05.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -179,23 +179,23 @@ Let's add some lights to our circuit, to show successful or failed attempts at t
 
 Drawing:
 <div class="scaled-images">
-  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock-07.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-07.jpg"/>
 </div>
 
 Schematic:
 <div class="scaled-images">
-  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock-08.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-08.jpg"/>
 </div>
 
 Board:
 <div class="scaled-images">
-  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock-09.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-09.jpg"/>
 </div>
 
 We can think of an FSM for this system that looks something like this:
 
 <div class="scaled-images s75 left">
-  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock-10.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-10.jpg"/>
 </div>
 
 We have an ```initial``` state where we just wait for the first knock. The system stays here as long as there have been no knocks.
@@ -220,8 +220,8 @@ We can test our implementation now, by trying to knock $$10$$ times within $$150
 
 <div class="video-container w100">
   <video class="video" preload="auto" muted playsinline controls>
-    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-video-06.webm" type="video/webm">
-    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-video-06.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-video-06.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-video-06.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -239,15 +239,15 @@ The pattern we will detect is the [*Shave and a Haircut*](https://en.wikipedia.o
 This is the pattern:
 
 <audio class="audio-tutorial" controls>
-  <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-two-bits.ogg" type="audio/ogg">
-  <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-two-bits.mp3" type="audio/mpeg">
+  <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-two-bits.ogg" type="audio/ogg">
+  <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-two-bits.mp3" type="audio/mpeg">
 </audio>
 
 We can start by thinking about what a Finite State Machine that detects specific patterns would look like. Similar to the FSM above, we have an initial state, where we just wait for the first knock, and then we have a "counting" state, except instead of just counting the knocks we also have to check if they happen in the right moments in time.
 
 Our new FSM can look like this:
 <div class="scaled-images s75 left">
-  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock-11.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-11.jpg"/>
 </div>
 
 This is similar to the previous FSM, but now there are extra requirements about the timing of each knock.
@@ -258,7 +258,7 @@ To figure out the times between each knock, we can clap the pattern out a couple
 
 Something like this:
 <div class="scaled-images">
-  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock-12.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-12.jpg"/>
 </div>
 
 Now we just have to put this into our code.
@@ -297,8 +297,8 @@ And test by trying to tap out the pattern of the jiggle:
 
 <div class="video-container w100">
   <video class="video" preload="auto" muted playsinline controls>
-    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-video-07.webm" type="video/webm">
-    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock-video-07.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-video-07.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/tutorials/piezo-knock/piezo-knock-video-07.mp4" type="video/mp4">
   </video>
 </div>
 

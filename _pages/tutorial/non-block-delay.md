@@ -14,12 +14,12 @@ And that is not the situation we want for a microcontroller that we are programm
 
 We'll start by considering this simple circuit with $$2$$ resistors and $$2$$ LEDs:
 <div class="scaled-images">
-  <img src = "{{ site.baseurl }}/assets/tutorials/non-block-delay-00_sch.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-00_sch.jpg"/>
 </div>
 
 Board view:
 <div class="scaled-images">
-  <img src = "{{ site.baseurl }}/assets/tutorials/non-block-delay-00_bb.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-00_bb.jpg"/>
 </div>
 
 The code we will start with is very similar to the [Blink example](https://docs.arduino.cc/built-in-examples/basics/Blink) that comes with the arduino IDE, it turns the LED on, waits $$600$$ milliseconds, turns it off and waits another $$600$$ milliseconds.:
@@ -28,8 +28,8 @@ The code we will start with is very similar to the [Blink example](https://docs.
 
 <div class="video-container w100">
   <video class="video" preload="auto" muted playsinline controls>
-    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay-00.webm" type="video/webm">
-    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay-00.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-00.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-00.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -49,14 +49,14 @@ The [```micros()```](https://www.arduino.cc/reference/en/language/functions/time
 
 If we run this on an arduino UNO board, we get the following in the serial monitor:
 <div class="scaled-images s50 left">
-  <img src = "{{ site.baseurl }}/assets/tutorials/non-block-delay-timing-00.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-timing-00.jpg"/>
 </div>
 
 Which means our loop is executing once every $$8$$ microseconds, or $$125,000$$ times per second.
 
 In an arduino with the esp32 core we get:
 <div class="scaled-images s50 left">
-  <img src = "{{ site.baseurl }}/assets/tutorials/non-block-delay-timing-01.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-timing-01.jpg"/>
 </div>
 
 Which is $$1,000,000$$ times per second.
@@ -80,8 +80,8 @@ Since we won't know whether the LED is on or off, we will need to add another va
 
 <div class="video-container w100">
   <video class="video" preload="auto" muted playsinline controls>
-    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay-01.webm" type="video/webm">
-    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay-01.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-01.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-01.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -96,8 +96,8 @@ This code makes the LED give a quick blink, then a slow blink, then another quic
 
 <div class="video-container w100">
   <video class="video" preload="auto" muted playsinline controls>
-    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay-02.webm" type="video/webm">
-    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay-02.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-02.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-02.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -123,8 +123,8 @@ And in real code, we add an array to keep track of the delay amounts for the seq
 
 <div class="video-container w100">
   <video class="video" preload="auto" muted playsinline controls>
-    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay-03.webm" type="video/webm">
-    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay-03.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-03.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-03.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -136,12 +136,12 @@ Now suppose we want to use delay not just to set the timing of when an LED shoul
 Let's consider the following circuit and the code necessary for turning on all of the LEDs in sequence ($$D2$$ $$\rightarrow$$ $$D7$$) before turning them all off:
 
 <div class="scaled-images">
-  <img src = "{{ site.baseurl }}/assets/tutorials/non-block-delay-04_sch.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-04_sch.jpg"/>
 </div>
 
 Board view:
 <div class="scaled-images">
-  <img src = "{{ site.baseurl }}/assets/tutorials/non-block-delay-04_bb.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-04_bb.jpg"/>
 </div>
 
 The code uses a for loop to iterate through the pins and turn them all on with a short delay between each LED. Once they are all on, there's a longer delay before a similar for loop turns off all of the LEDs:
@@ -150,8 +150,8 @@ The code uses a for loop to iterate through the pins and turn them all on with a
 
 <div class="video-container w100">
   <video class="video" preload="auto" muted playsinline controls>
-    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay-04.webm" type="video/webm">
-    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay-04.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-04.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-04.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -176,8 +176,8 @@ Can become code like this:
 
 <div class="video-container w100">
   <video class="video" preload="auto" muted playsinline controls>
-    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay-05.webm" type="video/webm">
-    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay-05.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-05.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/tutorials/non-block-delay/non-block-delay-05.mp4" type="video/mp4">
   </video>
 </div>
 

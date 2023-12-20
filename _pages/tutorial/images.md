@@ -23,7 +23,7 @@ We can use [```resize()```](https://p5js.org/reference/#/p5.Image/resize), anoth
 After we scale our image we can compute some offsets to center it on the canvas. These offsets are half of the difference between the image size and the canvas size:
 
 <div class="scaled-images s75">
-  <img src = "{{ site.baseurl }}/assets/tutorials/images-00.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/images/images-00.jpg"/>
 </div>
 
 ---
@@ -54,13 +54,13 @@ There are two important things to note here:
 If we had a $$3$$ x $$3$$ image with $$9$$ pixels, the beginning of its pixel array would look something like this:
 
 <div class="scaled-images s75">
-  <img src = "{{ site.baseurl }}/assets/tutorials/images-01.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/images/images-01.jpg"/>
 </div>
 
 And the association between image pixel indices $$(x, y)$$ and array index $$i$$:
 
 <div class="scaled-images s75">
-  <img src = "{{ site.baseurl }}/assets/tutorials/images-02.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/images/images-02.jpg"/>
 </div>
 
 What this means is that, if we want to iterate over our image and do something with each pixel, we'll have to do some math to translate between $$(x, y)$$ coordinate to pixel array coordinate $$i$$.
@@ -68,7 +68,7 @@ What this means is that, if we want to iterate over our image and do something w
 Let's start with the simpler case, where we don't care about $$(x, y)$$ position, but just want to manipulate every pixel in our array with the same logic, independent of its location. We'll have to iterate over all of the values in the pixel array, but instead of incrementing our loop index by $$1$$ we will increment it by $$4$$. This way our ```i``` variable always points to the first of the $$4$$ color values for a pixel.
 
 <div class="scaled-images s75">
-  <img src = "{{ site.baseurl }}/assets/tutorials/images-03.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/images/images-03.jpg"/>
 </div>
 
 {% include p5-editor.html id="jz-RoYYTn" %}
@@ -119,7 +119,7 @@ Now the only thing we have to do is get the color values at the image's $$(x, y)
 Let's consider the following $$4$$ x $$3$$ image with pixel indices $$(x, y)$$, and its corresponding array of pixel values with index $$i$$:
 
 <div class="scaled-images s75">
-  <img src = "{{ site.baseurl }}/assets/tutorials/images-04.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/images/images-04.jpg"/>
 </div>
 
 It's easy to figure out the value for $$i$$ for the first row in the image when $$y = 0$$: $$i$$ is just equal to the $$x$$ value. So, $$(0, 0)$$, $$(1, 0)$$, $$(2, 0)$$, $$(3, 0)$$ correspond to $$[0, 1, 2, 3]$$.
@@ -141,7 +141,7 @@ Just one more adjustment, because unfortunately our image pixel array doesn't on
 When we increment $$x$$ by $$1$$ we actually want to increment our $$i$$ by $$4$$ to get to the next pixel's first color value. Likewise, when $$y$$ increases by $$1$$ we want to increment $$i$$ by $$4 \times width$$, so we again land on the first color value of a pixel:
 
 <div class="scaled-images s75">
-  <img src = "{{ site.baseurl }}/assets/tutorials/images-05.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/images/images-05.jpg"/>
 </div>
 
 So, to get the index of the first color value for a pixel at $$(x, y)$$, we need to do:
@@ -182,13 +182,13 @@ It's a little bit harder to figure out the dominant color channel in a video or 
 
 <div class="image-row">
   <div class="img-wrapper">
-    <img src = "{{ site.baseurl }}/assets/tutorials/images-06.jpg"/>
+    <img src = "{{ site.baseurl }}/assets/tutorials/images/images-06.jpg"/>
   </div>
   <div class="img-wrapper">
-    <img src = "{{ site.baseurl }}/assets/tutorials/images-07.jpg"/>
+    <img src = "{{ site.baseurl }}/assets/tutorials/images/images-07.jpg"/>
   </div>
   <div class="img-wrapper">
-    <img src = "{{ site.baseurl }}/assets/tutorials/images-08.jpg"/>
+    <img src = "{{ site.baseurl }}/assets/tutorials/images/images-08.jpg"/>
   </div>
 </div>
 

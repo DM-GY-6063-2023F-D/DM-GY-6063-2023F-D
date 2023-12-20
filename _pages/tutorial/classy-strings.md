@@ -9,7 +9,7 @@ In this tutorial we are going to take a look at how to use classes to implement 
 We have a phrase and we want to repeatedly write it on our canvas, one letter at a time:
 
 <div class="scaled-images s75">
-  <img src = "https://www.markdery.com/wp-content/uploads/2013/11/all_work_and_no_play.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/classy-strings/all_work_and_no_play.jpg"/>
 </div>
 
 Since strings are just arrays of letters, we can have a global variable for a counter, and use it to keep track of how many of the characters to draw at each frame. As the counter goes up, we'll draw more letter, and the effect will be something like a typewriter:
@@ -177,13 +177,13 @@ If we change the probability of the red words in the code above we'll see a smal
 
 <div class="image-row">
   <div class="img-wrapper">
-    <img src = "{{ site.baseurl }}/assets/tutorials/classy-strings-00.jpg"/>
+    <img src = "{{ site.baseurl }}/assets/tutorials/classy-strings/classy-strings-00.jpg"/>
   </div>
   <div class="img-wrapper">
-    <img src = "{{ site.baseurl }}/assets/tutorials/classy-strings-01.jpg"/>
+    <img src = "{{ site.baseurl }}/assets/tutorials/classy-strings/classy-strings-01.jpg"/>
   </div>
   <div class="img-wrapper">
-    <img src = "{{ site.baseurl }}/assets/tutorials/classy-strings-02.jpg"/>
+    <img src = "{{ site.baseurl }}/assets/tutorials/classy-strings/classy-strings-02.jpg"/>
   </div>
 </div>
 
@@ -199,13 +199,13 @@ This is a lot better. There are still some improvements we could make, but now o
 
 <div class="image-row">
   <div class="img-wrapper">
-    <img src = "{{ site.baseurl }}/assets/tutorials/classy-strings-03.jpg"/>
+    <img src = "{{ site.baseurl }}/assets/tutorials/classy-strings/classy-strings-03.jpg"/>
   </div>
   <div class="img-wrapper">
-    <img src = "{{ site.baseurl }}/assets/tutorials/classy-strings-04.jpg"/>
+    <img src = "{{ site.baseurl }}/assets/tutorials/classy-strings/classy-strings-04.jpg"/>
   </div>
   <div class="img-wrapper">
-    <img src = "{{ site.baseurl }}/assets/tutorials/classy-strings-05.jpg"/>
+    <img src = "{{ site.baseurl }}/assets/tutorials/classy-strings/classy-strings-05.jpg"/>
   </div>
 </div>
 

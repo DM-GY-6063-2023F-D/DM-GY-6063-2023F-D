@@ -9,13 +9,13 @@ This is a brief tutorial with examples of how to use some of the trigonometry an
 These are the basic [trigonometric functions](https://en.wikipedia.org/wiki/Trigonometric_functions) (and the [Pythagorean theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem)) that relate the angles of a right triangle to the lengths of its sides:
 
 <div class="scaled-images s75">
-  <img src = "{{ site.baseurl }}/assets/tutorials/trigonometry-00.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/trigonometry/trigonometry-00.jpg"/>
 </div>
 
 These can be used to derive formulas for translating between [Cartesian](https://en.wikipedia.org/wiki/Cartesian_coordinate_system) and [polar](https://en.wikipedia.org/wiki/Polar_coordinate_system) coordinate systems.
 
 <div class="scaled-images s75">
-  <img src = "{{ site.baseurl }}/assets/tutorials/trigonometry-01.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/trigonometry/trigonometry-01.jpg"/>
 </div>
 
 Cartesian coordinates are what we use to specify points on a plane (and pixels on a screen) using two numbers that represent distances in perpendicular directions. Polar coordinates specify points on a plane using a distance and an angle.
@@ -131,7 +131,7 @@ Polar coordinates are lots of fun, and can also be very useful when we need to c
 If we image two points on our screen, with coordinates $$(x_0, y_0)$$ and $$(x_1, y_1)$$, we can get the distance between them by using the Pythagorean theorem:
 
 <div class="scaled-images s75">
-  <img src = "{{ site.baseurl }}/assets/tutorials/trigonometry-02.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/trigonometry/trigonometry-02.jpg"/>
 </div>
 
 In this sketch the distance between two moving points is calculated using the formula $$\sqrt{(x_1 - x_0)^2 + (y_1 - y_0)^2}$$ and the p5js function [```dist()```](https://p5js.org/reference/#/p5/dist). When those distances are used as the diameter for two circles centered on the canvas, we can see that they are exactly the same:
@@ -142,7 +142,7 @@ In this sketch the distance between two moving points is calculated using the fo
 Similarly, we can use the formula that calculates the polar angle of a point to get the angle between two points:
 
 <div class="scaled-images s75">
-  <img src = "{{ site.baseurl }}/assets/tutorials/trigonometry-03.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/trigonometry/trigonometry-03.jpg"/>
 </div>
 
 Or, the angle between a point and itself in the future.
@@ -150,7 +150,7 @@ Or, the angle between a point and itself in the future.
 If a moving point at $$(x, y)$$ has velocity $$v_x$$ and $$v_y$$, its position in the near future will be $$(x + v_x, y + v_y)$$. We can calculate the angle between the point now and the point in the future to get its heading angle:
 
 <div class="scaled-images s75">
-  <img src = "{{ site.baseurl }}/assets/tutorials/trigonometry-04.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/trigonometry/trigonometry-04.jpg"/>
 </div>
 
 We can use the heading angle of a moving object to rotate its shape and emphasize its direction of motion:
@@ -165,7 +165,7 @@ This is the shortest distance from a given point to any point on an infinite str
 It's distance $$d$$ between $$(X, Y)$$ and the line $$y = \frac{m}{n}x + b$$ on the drawing below:
 
 <div class="scaled-images s75">
-  <img src = "{{ site.baseurl }}/assets/tutorials/trigonometry-05.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/trigonometry/trigonometry-05.jpg"/>
 </div>
 
 There are many ways to derive the equation for the distance. The one in the drawing involves using distances from another point $$(X_0, Y_0)$$, also on the line, to the original point and to a point $$(X_0+m, Y_0-n)$$ that is perpendicular to the line. The final distance equation is:
@@ -182,7 +182,7 @@ p5.js actually has a class called [```Vector```](https://p5js.org/reference/#/p5
 This drawing shows two vectors/points and if we subtract $$_1$$ from $$v_0$$, we get a third vector that holds information about the distance and direction between them.
 
 <div class="scaled-images s75">
-  <img src = "{{ site.baseurl }}/assets/tutorials/trigonometry-06.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/trigonometry/trigonometry-06.jpg"/>
 </div>
 
 The vectors in p5js actually have builtin functions to calculate distances and angles. We can create two vectors and get the distance between them like this:
