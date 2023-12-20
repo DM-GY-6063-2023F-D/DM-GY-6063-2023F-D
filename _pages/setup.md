@@ -4,7 +4,7 @@
 
 ## Sketch Notebook
 
-Like... a physical notebook with paper and some pens. This will be needed for notes, sketches and drawings during class and for sketching out ideas and prototypes for projects and assignments. If you're already using a digital notebook app on a tablet... that's also fine.
+Like... an actual physical notebook with paper and some pens. This will be needed for notes, sketches and drawings during class and for sketching out ideas and prototypes for projects and assignments. If you're already using a digital notebook app on a tablet... that's also fine.
 
 ## Git and Github
 
@@ -17,6 +17,13 @@ Download and install [GitHub Desktop](https://desktop.github.com/). This is the 
 ## Arduino IDE
 
 We'll be using the official Arduino IDE. It can be downloaded [here](https://www.arduino.cc/en/software).
+
+If using the Arduino Nano ESP32 board, follow [this guide](https://docs.arduino.cc/tutorials/nano-esp32/getting-started-nano-esp32) to install the board package from the board manager.
+
+Also, these libraries are useful and recommended:
+
+- [ArduinoJson](https://arduinojson.org/)
+- [ArduinoBLE](https://www.arduino.cc/reference/en/libraries/arduinoble/)
 
 ## p5js IDE
 
