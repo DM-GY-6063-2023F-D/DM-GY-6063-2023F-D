@@ -229,3 +229,38 @@ and adjust some of the parameters, we can get it to make the original signals so
 {% include p5-editor.html id="gtUXYqYRW" %}
 
 ---
+Now that we know how the [```p5.Delay```] and [```p5.Reverb```] work, maybe we can start using them in non-expected ways.
+
+What happens if we chan a bunch of delay modules in a row? Or mix delays and reverbs?
+
+Let's start by building the following processing pipeline:
+
+<div class="scaled-images left">
+  <img src = "{{ site.baseurl }}/assets/tutorials/sound-processing/sound-processing-13.jpg"/>
+</div>
+
+We'll use a for loop to create the modules and push them onto an array, and then we can wire up the edge cases:
+
+```js
+for (let i = 0; i < NUM_DELAYS; i++) {
+  let mDelay = new p5.Delay();
+  mDelay.delayTime(DELAY_TIME);
+
+  // connect output of previous delay to input
+  mDelays[i - 1].connect(mDelay);
+
+  mDelays.push(mDelay);
+}
+
+// connect audio file module to first delay
+mSound.connect(mDelays[0]);
+
+// connect last delay to output
+mDelays[mDelays.length - 1].connect(p5.soundOut);
+```
+
+And the full sketch:
+
+{% include p5-editor.html id="X9QILrsQ3" %}
+
+---
