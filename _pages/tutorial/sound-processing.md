@@ -66,9 +66,166 @@ mSound.connect(mAmp);
 
 These are the exact connections shown in the diagram above.
 
-Our ```p5.Amplitude``` object can now be used at every iteration of our ```draw()``` function to get the sound's amplitude and display it visually:
+Our ```p5.Amplitude``` object can now be used at every iteration of our ```draw()``` function to get the sound's amplitude and display it visually using ellipses:
 
 {% include p5-editor.html id="Dvc9L6y-_" %}
 
 ---
+Now that we can visualize our sound, let's add an actual processing module to manipulate the quality and characteristics of our audio:
 
+<div class="scaled-images left">
+  <img src = "{{ site.baseurl }}/assets/tutorials/sound-processing/sound-processing-03.jpg"/>
+</div>
+
+The [```p5.Filter```](https://p5js.org/reference/#/p5.Filter) module allows us to filter our audio signals based on frequencies.
+
+Some common types of filter that we can implement with this module are: ```lowpass```, ```highpass```, ```bandpass``` and ```notch```.
+
+Like the name suggests, the ```lowpass``` filter lets low frequencies (bass) through while blocking high frequencies:
+
+<div class="scaled-images left">
+  <img src = "{{ site.baseurl }}/assets/tutorials/sound-processing/sound-processing-04.jpg"/>
+</div>
+
+The ```highpass``` acts in the opposite manner, filtering out low-frequency components of the sound, while letting high frequencies pass to the output:
+
+<div class="scaled-images left">
+  <img src = "{{ site.baseurl }}/assets/tutorials/sound-processing/sound-processing-05.jpg"/>
+</div>
+
+The ```notch``` filter is used to attenuate a specific range of frequencies from the audio signal, while the ```bandpass``` does the opposite and only lets a specific range of frequencies pass to its output:
+
+<div class="scaled-images left">
+  <img src = "{{ site.baseurl }}/assets/tutorials/sound-processing/sound-processing-06.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/sound-processing/sound-processing-07.jpg"/>
+</div>
+
+The frequency $$f$$, sometimes called the cutoff frequency, corner frequency or break frequency, is a parameter to the filter object and will determine which frequencies pass and which will be filtered out. The ```bandpass``` and ```notch``` filters also have another parameter to control their bandwidth, or how wide their cutoff or pass bands are. 
+
+With this in mind, we can instantiate a filter and implement the following system:
+
+<div class="scaled-images left">
+  <img src = "{{ site.baseurl }}/assets/tutorials/sound-processing/sound-processing-03.jpg"/>
+</div>
+
+With something like this:
+
+```js
+mSound = loadSound("./sound-file.mp3");
+mFilter = new p5.Filter("bandpass");
+mAmp = new p5.Amplitude();
+
+mSound.disconnect();
+mFilter.disconnect();
+
+mSound.connect(mFilter);
+mFilter.connect(p5.soundOut);
+mFilter.connect(mAmp);
+```
+
+And use ```mouseX``` to pick the filter's center frequency $$f$$:
+
+{% include p5-editor.html id="XS4zAXpiS" %}
+
+---
+We can definitely hear the differences in the sound as we move the mouse around and change the filter's cutoff frequency, but let's look at a module that will let us visualize the filter's effect as well.
+
+The [```p5.FFT```](https://p5js.org/reference/#/p5.FFT) class implements the Fast Fourier Transform algorithm, which can be used to separate our audio signal into individual frequency components.
+
+We can replace the ```Amplitude``` module in the last example with the ```FFT``` module:
+
+<div class="scaled-images left">
+  <img src = "{{ site.baseurl }}/assets/tutorials/sound-processing/sound-processing-08.jpg"/>
+</div>
+
+And now, when we call [```FFT.analyze()```](https://p5js.org/reference/#/p5.FFT/analyze), this module calculates an array of $$1024$$ values, where each value corresponds to how much of a particular audible frequency was present in the original audio signal.
+
+So, the first value of the array corresponds to frequencies between $$0$$ and $$20$$ Hz, the second value is for frequencies between $$20$$ and $$40$$ Hz, and so on, all the way to the 1024th value that corresponds to frequencies greater than $$22,000$$ Hz or $$22$$ kHz.
+
+If the value in a particular position is $$0$$, that means the original audio signal had no sound in that frequency. On the other hand, if it's $$255$$, it means that the original signal had a very strong sound with that frequency.
+
+The ```p5.FFT``` object also has a [```getEnergy()```](https://p5js.org/reference/#/p5.FFT/getEnergy) function that returns the amount of a specific frequency or frequency range present in the audio signal. It can also be called with one of five pre-defined range strings, to get the amount of energy in the ```bass```, ```lowMid```, ```mid```, ```highMid``` and  ```treble``` frequency ranges.
+
+Knowing this, we can use the ```p5.FFT``` object and the ```FFT.analyze()``` and ```getEnergy()``` functions to visualize the effects of the filter from the previous example:
+
+{% include p5-editor.html id="J1rT_BiA8" %}
+
+Instead of just drawing one circle, we now draw five, one for each of the predefined frequency ranges, and as we move the mouse from the left to the right we will see movement go from the bottom circles to the top, which correspond to the higher frequency ranges.
+
+---
+Let's experiment with another effect module/object: [```p5.Delay```](https://p5js.org/reference/#/p5.Delay).
+
+This module adds a kind of echo effect to any sound by replaying the audio signal again after a couple of milliseconds and then replaying again delayed by a couple more milliseconds, and so on and so on... to create a trail of sound, where each delayed copy is also attenuated (lower volume) by some amount.
+
+We can just replace the ```p5.Filter``` module in the examples above with a ```p5.Delay``` object like this:
+
+<div class="scaled-images left">
+  <img src = "{{ site.baseurl }}/assets/tutorials/sound-processing/sound-processing-09.jpg"/>
+</div>
+
+And initialize the object with a proper [```delayTime()```](https://p5js.org/reference/#/p5.Delay/delayTime):
+
+```js
+mDelay = new p5.Delay();
+mDelay.delayTime(0.15);
+```
+
+But, no matter how we adjust this parameter, the resulting signal just won't sound like a _natural_ echo. Try it :
+
+{% include p5-editor.html id="b_8iEba2t" %}
+
+This is because all we are hearing is the "wet" sound, the sound with the delay, where in a real-world situation any kind of echo is a combination of the delayed sound ("wet" signal) with the original sound ("dry" signal).
+
+To simulate this, we have to wire up our sound processing modules like this:
+
+<div class="scaled-images left">
+  <img src = "{{ site.baseurl }}/assets/tutorials/sound-processing/sound-processing-10.jpg"/>
+</div>
+
+Where the output gets a mix of the original sound plus the delayed sound:
+
+```js
+mSound.amp(0.7);
+mDelay.amp(0.3);
+
+mSound.connect(mDelay);
+mSound.connect(p5.soundOut);
+mDelay.connect(p5.soundOut);
+```
+
+{% include p5-editor.html id="OcNSvyt6B" %}
+
+Now we can play with the parameters to adjust the delay and we'll have a little bit more control of how the overall final signal will sound.
+
+---
+Another module that is very similar to the [```p5.Delay```](https://p5js.org/reference/#/p5.Delay), gets connected the same way, and is used in a similar manner, is the [```p5.Reverb```](https://p5js.org/reference/#/p5.Reverb) effect.
+
+Reverb also adds echo to a sound, but instead of adding one delayed version of the signal, as if it was coming from the same location as the original source, reverb is like adding a bunch of delayed versions of the original source, but all coming from different locations. This has the overall effect of making the sound feel like it is occurring in a physical space with particular audio characteristics.
+
+This video explains and shows the difference between delay and reverb on vocal and instrumental sounds:
+
+<div class="youtube-container s16x9">
+  <iframe width="800" height="450" src="https://www.youtube.com/embed/-jPPJEHMepA?si=uLK5BJ-KszAwW8G_" frameborder="0" allowfullscreen></iframe>
+</div>
+
+In p5js, if we wire it up to hear just the reverb, like this:
+
+<div class="scaled-images left">
+  <img src = "{{ site.baseurl }}/assets/tutorials/sound-processing/sound-processing-11.jpg"/>
+</div>
+
+the _wet_ signal will sound like this:
+
+{% include p5-editor.html id="mFZ-XEiNK" %}
+
+But, like the delay, if we wire it up like this, mixing the _wet_ and _dry_ signals:
+
+<div class="scaled-images left">
+  <img src = "{{ site.baseurl }}/assets/tutorials/sound-processing/sound-processing-12.jpg"/>
+</div>
+
+and adjust some of the parameters, we can get it to make the original signals sound like it's coming from a large empty room:
+
+{% include p5-editor.html id="gtUXYqYRW" %}
+
+---
