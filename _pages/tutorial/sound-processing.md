@@ -259,8 +259,19 @@ mSound.connect(mDelays[0]);
 mDelays[mDelays.length - 1].connect(p5.soundOut);
 ```
 
-And the full sketch:
+And the full sketch, with some adjustable parameters:
 
 {% include p5-editor.html id="X9QILrsQ3" %}
+
+---
+We can easily change the above sketch to use a microphone instead of a pre-recorded file if we want to add the effect to our own voice in real time:
+
+<div class="scaled-images left">
+  <img src = "{{ site.baseurl }}/assets/tutorials/sound-processing/sound-processing-14.jpg"/>
+</div>
+
+We just add a [```p5.AudioIn```](https://p5js.org/reference/#/p5.AudioIn) object to get the sound from the microphone and a boolean variable ```isMicOn``` to toggle the microphone on and off:
+
+{% include p5-editor.html id="94vJFO1dT_" %}
 
 ---
