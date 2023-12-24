@@ -275,3 +275,39 @@ We just add a [```p5.AudioIn```](https://p5js.org/reference/#/p5.AudioIn) object
 {% include p5-editor.html id="94vJFO1dT_" %}
 
 ---
+The final example includes putting something together that combines a lot of what we looked at so far.
+
+The idea is to add a noticeable delay on the lower frequencies, to artificially add more bass drum hits, and at the same time add some reverb effects to the hi-hat, so it sounds like an extra instrument.
+
+We will work towards this pipeline, one effect at a time:
+
+<div class="scaled-images left">
+  <img src = "{{ site.baseurl }}/assets/tutorials/sound-processing/sound-processing-15.jpg"/>
+</div>
+
+First, the low-frequency path:
+
+```js
+mSound.connect(mFilterLow);
+mFilterLow.connect(mDelay);
+mDelay.connect(p5.soundOut);
+```
+
+With a toggle, to check the effect:
+{% include p5-editor.html id="98WIWW9xU" %}
+
+---
+Now, the high-frequency path:
+
+```js
+mSound.connect(mFilterHigh);
+mFilterHigh.connect(mReverb);
+mReverb.connect(p5.soundOut);
+```
+
+With a toggle:
+{% include p5-editor.html id="FDLTm6orf" %}
+
+---
+And, putting it all together, with a toggle:
+{% include p5-editor.html id="GkVqKhU2t" %}
