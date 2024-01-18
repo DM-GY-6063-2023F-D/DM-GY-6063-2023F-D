@@ -229,9 +229,9 @@ and adjust some of the parameters, we can get it to make the original signals so
 {% include p5-editor.html id="gtUXYqYRW" %}
 
 ---
-Now that we know how the [```p5.Delay```] and [```p5.Reverb```] work, maybe we can start using them in non-expected ways.
+Now that we know how the [```p5.Delay```](https://p5js.org/reference/#/p5.Delay) and [```p5.Reverb```](https://p5js.org/reference/#/p5.Reverb) modules work, maybe we can start using them in non-expected ways.
 
-What happens if we chan a bunch of delay modules in a row? Or mix delays and reverbs?
+What happens if we chain a bunch of delay modules in a row? Or mix delays and reverbs?
 
 Let's start by building the following processing pipeline:
 
