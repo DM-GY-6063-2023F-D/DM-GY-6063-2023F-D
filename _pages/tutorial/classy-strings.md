@@ -175,7 +175,7 @@ Almost there.
 
 If we change the probability of the red words in the code above we'll see a small bug in our logic:
 
-<div class="image-row">
+<div class="image-row image-row-ugly">
   <div class="img-wrapper">
     <img src = "{{ site.baseurl }}/assets/tutorials/classy-strings/classy-strings-00.jpg"/>
   </div>
@@ -197,7 +197,7 @@ Let's move the ```cx``` and ```cy``` logic to the class. Every time a new ```Fad
 
 This is a lot better. There are still some improvements we could make, but now our ```setup()``` and ```draw()``` functions are clean and work as we expected:
 
-<div class="image-row">
+<div class="image-row image-row-good">
   <div class="img-wrapper">
     <img src = "{{ site.baseurl }}/assets/tutorials/classy-strings/classy-strings-03.jpg"/>
   </div>
@@ -247,3 +247,6 @@ nextUpdateMillis = millis() + 1.2 * wordDelay;
 ```
 
 {% include p5-editor.html id="KJO5CEwKM" %}
+
+<script src="{{ site.baseurl }}/assets/simplelightbox/simple-lightbox.min.js"></script>
+<script src="{{ site.baseurl }}/js/lightbox.js"></script>
