@@ -9,7 +9,7 @@ We saw how to loop through elements and repeat code execution using ```for()``` 
 One of the simplest ways to create a cycle is to think of a way to periodically reset a variable that just grows and grows. Think of the way an analog clock works: time just keeps going forward and growing, but the longer arm of the clock comes back to its beginning position every 60 minutes, and the shorter arm resets every 12 hours:
 
 <div class="scaled-images left s33">
-  <img src = "{{ site.baseurl }}/assets/tutorials/cycles.jpg"/>
+  <img src = "{{ site.baseurl }}/assets/tutorials/clock.jpg"/>
 </div>
 
 Before we create any cycles, let's just visualize a variable that keeps growing and growing in p5js: [```frameCount```](https://p5js.org/reference/#/p5/frameCount), which keeps track of how many times the ```draw()``` function has executed:
