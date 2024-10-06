@@ -2,7 +2,7 @@
 ---
 # Resources
 
-- [Course website](https://dm-gy-6063-2023f-d.github.io/)
+- [Course website](https://6063D.github.io/)
 - [Course GitHub](https://github.com/dm-gy-6063-2023f-d/)
 - [Brightspace](https://brightspace.nyu.edu/d2l/home/312200)
 - [Development Environment Setup](../setup/)

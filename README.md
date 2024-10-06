@@ -242,7 +242,7 @@ These books are excellent companions for the materials we'll be covering:
 
 ## Resources
 
-- [Class Website](https://dm-gy-6063-2023f-d.github.io/)
+- [Class Website](https://6063D.github.io/)
 - [Books, articles, etc](https://library.nyu.edu)
 - [NYU Writing Center](https://nyu.mywconline.com)
 - [NYU IT Service](https://nyu.edu/it/servicedesk)
